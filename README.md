@@ -14,4 +14,6 @@
 
 - **Paulo Rievrs Olviera** - [LinkedIn](https://www.linkedin.com/in/paulo-rievrs/)
 
+- Auxílio do **Hellowluan** - [Github](https://github.com/hellowluan)
+
 <p align="center">Made with 💜</p>
