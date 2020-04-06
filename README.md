@@ -37,7 +37,7 @@
 7. [Operadores Lógicos e de Comparação](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/3.7-OperadoresLogicos-e-Comparacao.md)
 8. [Estruturas Condicionais](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/3.8-EstruturasCondicionais.md)
 9. [Exercício 1](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/3.9-Exercicio1.md)
-10. [Estruturas de repetição]()
+10. [Estruturas de repetição](/!#)
 11. [Comandos break e Continue]()
 12. [Funções / Metodos]()
 13. [Arrays]()
