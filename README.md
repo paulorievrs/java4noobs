@@ -16,7 +16,8 @@
 
 ### Introdução
 
-1. [Introdução](https://github.com/paulorievrs/java4noobs/tree/master/1%20-%20Introdu%C3%A7%C3%A3o)
+1. [Introdução](https://github.com/paulorievrs/java4noobs/blob/master/1%20-%20Introdu%C3%A7%C3%A3o/1.1-Introdu%C3%A7%C3%A3o.md)
+2. [Problemas](https://github.com/paulorievrs/java4noobs/blob/master/1%20-%20Introdu%C3%A7%C3%A3o/1.2-Problemas.md)
 
 
 ### Configuração de Ambiente
