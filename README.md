@@ -35,7 +35,7 @@
 
 3. [Documentação e Identação](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/03-Documenta%C3%A7%C3%A3o-Identa%C3%A7%C3%A3o.md)
 
-4.🚦 [Váriaveis](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/04-DeclaracaoDeVariaveis.md)
+4. 🚦 [Váriaveis](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/04-DeclaracaoDeVariaveis.md)
 
 5. ➕➖ [Operadores Aritméticos](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/05-OperadoresMatematicos.md)
 
