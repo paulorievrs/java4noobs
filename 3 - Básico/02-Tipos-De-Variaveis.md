@@ -93,7 +93,7 @@ Esse tipo de váriavel deve ser contida entre aspas simples.
 
 <hr>
 <h2>Strings</h2>
-As string são um conjunto das váriaveis Char, ou seja, uma palavra.
+As string são um conjunto das váriaveis Char, ou seja, uma palavra. E ela é um objeto.
 
 Aqui está uma demonstração em código:
 
