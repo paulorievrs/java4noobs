@@ -44,13 +44,12 @@
 13. [Arrays](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/12-Arrays.md)
 14. [Exercício 2]()
 
-<h3>Abaixo desses ainda não foram criados. Temos só até o módulo 13.</h3>
+<h3>Abaixo desses ainda não foram criados. Temos só até o módulo 14.</h3>
 
 
 15. [Arrays Multidimensionais/Matrizes]()
-16. [Exercício 3]()
-17. [Diferenças de métodos static e non-static]()
-18. [Exceções]()
+16. [Diferenças de métodos static e non-static]()
+17. [Exceções]()
 
 ### Módulo Intermédiario
 
