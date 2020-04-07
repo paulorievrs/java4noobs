@@ -29,19 +29,20 @@
 
 ### Módulo Básico
 
-1. [Primeiro Programa](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/3.1-Primeiro-Programa.md)
-2. [Tipos de variáveis](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/3.2-Tipos-De-Variaveis.md)
-3. [Documentação e Identação](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/3.3-Documenta%C3%A7%C3%A3o-Identa%C3%A7%C3%A3o.md)
-4. [Váriaveis](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/3.4-DeclaracaoDeVariaveis.md)
-5. [Operadores Aritméticos](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/3.5-OperadoresMatematicos.md)
-6. [Ler dados da entrada padrão](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/3.6-LendoDadosDaEntradaPadrao.md)
-7. [Operadores Lógicos e de Comparação](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/3.7-OperadoresLogicos-e-Comparacao.md)
-8. [Estruturas Condicionais](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/3.8-EstruturasCondicionais.md)
-9. [Exercício 1](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/3.9-Exercicio1.md)
+1. [Primeiro Programa](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/01-Primeiro-Programa.md)
+2. [Tipos de variáveis](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/02-Tipos-De-Variaveis.md)
+3. [Documentação e Identação](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/03-Documenta%C3%A7%C3%A3o-Identa%C3%A7%C3%A3o.md)
+4. [Váriaveis](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/04-DeclaracaoDeVariaveis.md)
+5. [Operadores Aritméticos](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/05-OperadoresMatematicos.md)
+6. [Ler dados da entrada padrão](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/06-LendoDadosDaEntradaPadrao.md)
+7. [Operadores Lógicos e de Comparação](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/07-OperadoresLogicos-e-Comparacao.md)
+8. [Estruturas Condicionais](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/08-EstruturasCondicionais.md)
+9. [Exercício 1](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/09-Exercicio1.md)
+10. [Estruturas de repetição](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/10-EstruturasDeRepeticao.md)
 
-<h3>Abaixo desses ainda não foram criados. Temos só até o módulo 9.</h3>
+<h3>Abaixo desses ainda não foram criados. Temos só até o módulo 10.</h3>
 
-10. [Estruturas de repetição]()
+
 11. [Comandos break e Continue]()
 12. [Funções / Metodos]()
 13. [Arrays]()
