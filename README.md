@@ -44,8 +44,8 @@
 13. 🔠 [Arrays](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/12-Arrays.md)
 14. 📝 [Exercício 2](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/13-Exercico2.md)
 15. 🔠 [Arrays Multidimensionais/Matrizes](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/15-Matrizes.md)
-16. 🏃‍♂ [Diferenças de métodos static e non-static]()
-17. ✋ [Exceções]()
+16. 🏃‍♂ [Diferenças de métodos static e non-static](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/16-Diferencas-Static-nonStatic.md)
+17. ✋ [Exceções](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/17-Excecoes.md)
 
 ### Módulo Intermédiario (Não realizado ainda)
 
