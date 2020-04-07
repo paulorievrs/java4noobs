@@ -48,7 +48,7 @@
 
 14. [Exercício 2]()
 15. [Arrays Multidimensionais/Matrizes]()
-16. [Exercício 2]()
+16. [Exercício 3]()
 17. [Diferenças de métodos static e non-static]()
 18. [Exceções]()
 

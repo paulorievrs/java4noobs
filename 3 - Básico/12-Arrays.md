@@ -73,7 +73,7 @@ Uma pergunta foi feita na função de somar as idades. O tamanho do array pode s
 
 Todo Array em Java tem alguns métodos para auxiliar o programador. Vou destacar dois importantes.
 
-<li>nomeDoArray.length() - Seu uso é simples, coloque o nome do array e depois um ponto final e a instancia do metodo, no caso o length, pense que ele se torna uma variável que nela aparece o valor do tamanho do Array. Os parenteses sao necessáros assim como a chamada de uma função</li>
+<li>nomeDoArray.length - Seu uso é simples, coloque o nome do array e depois um ponto final e a instancia do metodo, no caso o length, pense que ele se torna uma variável que nela aparece o valor do tamanho do Array. Os parenteses sao necessáros assim como a chamada de uma função</li>
 
 <li>nomeDoArray.sort() - é metodo do array que ordena ele de ordem crescente. Você pode fazer um outro array receber o ordenado.
 
@@ -90,7 +90,7 @@ public class MetodosArray {
         idadeAlunos[3] = 12;
         idadeAlunos[4] = 11;
 
-        System.out.println(idadeAlunos.length());
+        System.out.println(idadeAlunos.length);
         //mostra o tamanho do array.
         
         int[] ordenado = idadeAlunos.sort();
