@@ -49,11 +49,11 @@
 
 ### Módulo Intermédiario
 
-1. 👁️‍🗨️ [Métodos utéis de Java]()
-2. 📂 [Leitura e Criação de arquivos]()
-3. 🤖 [Início de Programação Orientada ao Objeto]()
-4. 👨‍🏫 [Minha Primeira classe]()
-5. 👨‍🏫 [Utilizando a Classe]()
+1. 👁️‍🗨️ [Métodos utéis de Java](https://github.com/paulorievrs/java4noobs/blob/master/4%20-%20Intermedi%C3%A1rio/01-MetodosUteis.md)
+2. 📂 [Leitura e Criação de arquivos](https://github.com/paulorievrs/java4noobs/blob/master/4%20-%20Intermedi%C3%A1rio/02-LeituraDeArquivo.md)
+3. 🤖 [Início de Programação Orientada ao Objeto](https://github.com/paulorievrs/java4noobs/blob/master/4%20-%20Intermedi%C3%A1rio/03-InicioPOO.md)
+4. 👨‍🏫 [Minha Primeira classe](https://github.com/paulorievrs/java4noobs/blob/master/4%20-%20Intermedi%C3%A1rio/04-PrimeiraClasse.md)
+5. 👨‍🏫 [Utilizando a Classe](https://github.com/paulorievrs/java4noobs/blob/master/4%20-%20Intermedi%C3%A1rio/05-Utilizando-Classe.md)
 
 
 ## Como Contribuir
