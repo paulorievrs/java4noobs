@@ -5,7 +5,9 @@ Durante o curso, é ensinado aos poucos as boas práticas básicas de programaç
 
 <li> <a href="#"> Identação e documentação </a> </li>
 <li> <a href="#"> Nomes claros de váriaveis </a> </li>
+<li><a href="#"> Estrutura de Repetições utilizando i e j</li>
 <li> <a href="#"> Nomes claros de funções </a> </li>
 
 >Retirado do repósitorio do <a href="https://github.com/hellowluan?tab=repositories" target="_blank"> Hellowluan
 <img src="../img/boasPraticas.jpeg"> </a>
+
