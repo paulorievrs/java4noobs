@@ -59,6 +59,8 @@
 2. [Métodos utéis de Java]()
 3. [Leitura e Criação de arquivos]()
 4. [Minha Primeira classe]()
+5. [Utilizando a Classe]()
+
 
 ## Como Contribuir
 
