@@ -22,10 +22,10 @@
 
 ### Configuração de Ambiente
 
-1. [Ambiente Linux](https://github.com/paulorievrs/java4noobs/blob/master/2%20-%20Ambiente/2.1-Ambiente-Linux.md)
-2. [Ambiente Windows](https://github.com/paulorievrs/java4noobs/blob/master/2%20-%20Ambiente/2.1-Ambiente-Windows.md)
-3. [Editores de textos e plugins](https://github.com/paulorievrs/java4noobs/blob/master/2%20-%20Ambiente/2.2-Editor-de-Texto.md)
-4. [Dicas Gerais](https://github.com/paulorievrs/java4noobs/blob/master/2%20-%20Ambiente/2.3-Dicas-Gerais.md)
+1. 💻 [Ambiente Linux](https://github.com/paulorievrs/java4noobs/blob/master/2%20-%20Ambiente/2.1-Ambiente-Linux.md)
+2. 💻 [Ambiente Windows](https://github.com/paulorievrs/java4noobs/blob/master/2%20-%20Ambiente/2.1-Ambiente-Windows.md)
+3. 📋 [Editores de textos e plugins](https://github.com/paulorievrs/java4noobs/blob/master/2%20-%20Ambiente/2.2-Editor-de-Texto.md)
+4. 💁‍♂️ [Dicas Gerais](https://github.com/paulorievrs/java4noobs/blob/master/2%20-%20Ambiente/2.3-Dicas-Gerais.md)
 
 ### Módulo Básico
 
@@ -55,11 +55,11 @@
 
 ### Módulo Intermédiario
 
-1. [Início de Programação Orientada ao Objeto]()
-2. [Métodos utéis de Java]()
-3. [Leitura e Criação de arquivos]()
-4. [Minha Primeira classe]()
-5. [Utilizando a Classe]()
+1. 🤖 [Início de Programação Orientada ao Objeto]()
+2. 👁️‍🗨️ [Métodos utéis de Java]()
+3. 📂 [Leitura e Criação de arquivos]()
+4. 👨‍🏫 [Minha Primeira classe]()
+5. 👨‍🏫 [Utilizando a Classe]()
 
 
 ## Como Contribuir
