@@ -43,7 +43,7 @@
 12. [Funções / Metodos](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/11-Funcoes-Metodos.md)
 13. [Arrays](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/12-Arrays.md)
 
-<h3>Abaixo desses ainda não foram criados. Temos só até o módulo 10.</h3>
+<h3>Abaixo desses ainda não foram criados. Temos só até o módulo 13.</h3>
 
 
 14. [Exercício 2]()
