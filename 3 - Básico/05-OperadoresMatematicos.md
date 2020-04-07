@@ -1,5 +1,5 @@
-<h1Operadores matemáticos</h1>
-Os operadores matemáticos são de importância fundamental para qualquer tipo de linguagem de programação. Eles são os operadores de adição, subtração, multiplicação, divisão, mod (resto), incremento e decremento. ➕➖
+<h1>Operadores matemáticos</h1>
+Os operadores matemáticos são de importância fundamental para qualquer tipo de linguagem de programação. Eles são os operadores de adição, subtração, multiplicação, divisão, mod (resto), incremento e decremento.
 
 >Imagem retirada do <a href="https://github.com/hellowluan/java-basico" target="_blank"> repositório do hellowluan.
 
