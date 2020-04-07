@@ -47,11 +47,11 @@
 16. 🏃‍♂ [Diferenças de métodos static e non-static](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/16-Diferencas-Static-nonStatic.md)
 17. ✋ [Exceções](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/17-Excecoes.md)
 
-### Módulo Intermédiario (Não realizado ainda)
+### Módulo Intermédiario
 
-1. 🤖 [Início de Programação Orientada ao Objeto]()
-2. 👁️‍🗨️ [Métodos utéis de Java]()
-3. 📂 [Leitura e Criação de arquivos]()
+1. 👁️‍🗨️ [Métodos utéis de Java]()
+2. 📂 [Leitura e Criação de arquivos]()
+3. 🤖 [Início de Programação Orientada ao Objeto]()
 4. 👨‍🏫 [Minha Primeira classe]()
 5. 👨‍🏫 [Utilizando a Classe]()
 
