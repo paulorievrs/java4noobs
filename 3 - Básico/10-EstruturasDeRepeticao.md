@@ -62,6 +62,5 @@ public class EstruturaFor {
 }
 
 ```
-
 Todas as suas saídas tem que ser essa:
 <img src="../img/estruturasDeRepeticao.jpeg">

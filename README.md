@@ -39,13 +39,13 @@
 8. [Estruturas Condicionais](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/08-EstruturasCondicionais.md)
 9. [Exercício 1](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/09-Exercicio1.md)
 10. [Estruturas de repetição](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/10-EstruturasDeRepeticao.md)
+11. [Comandos break e Continue]()
+12. [Funções / Metodos]()
+13. [Arrays]()
 
 <h3>Abaixo desses ainda não foram criados. Temos só até o módulo 10.</h3>
 
 
-11. [Comandos break e Continue]()
-12. [Funções / Metodos]()
-13. [Arrays]()
 14. [Exercício 2]()
 15. [Arrays Multidimensionais/Matrizes]()
 16. [Exercício 2]()
