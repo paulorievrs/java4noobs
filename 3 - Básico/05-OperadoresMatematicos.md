@@ -12,16 +12,16 @@ Como o nome já diz, é um operador que realiza uma soma, ele pode ser atribuido
 public class OperadorAdicao {
     public static void main(String args[]) {
 
-        int soma = 5+2; //variável inteira de nome "soma" recebe o valor da soma entre 5 e 2;
+        int soma = 5+2; //variável do tipo inteiro de nome "soma" recebe o valor da soma entre 5 e 2;
 
         System.out.println("O valor da soma 5 + 2 = " + soma);
 
         //Também pode ser declarado como:
-        int num1 = 5; //variavel inteira de nome "num1" recebe o valor de 5.
+        int num1 = 5; //variável do tipo inteiro de nome "num1" recebe o valor de 5.
 
-        int num2 = 2; //variavel inteira de nome "num2" recebe o valor de 2.
+        int num2 = 2; //variável do tipo inteiro de nome "num2" recebe o valor de 2.
 
-        int soma2 = num1 + num2; //variavel de nome "soma2" recebe o valor da soma entre as variaveis de nome "num1" e "num2"
+        int soma2 = num1 + num2; //variável do tipo inteiro de nome "soma2" recebe o valor da soma entre as variáveis de nome "num1" e "num2"
 
         System.out.println("O valor da soma " + num1 + " + " + num2 + " = " + soma2);
 
@@ -37,16 +37,16 @@ Como o nome já diz, é um operador que realiza uma subtração, ele pode ser at
 public class OperadorSubtracao {
     public static void main(String args[]) {
 
-        int subtracao = 10-4; //variável inteira de nome "subtracao" recebe o valor da subtracao entre 10 e 4;
+        int subtracao = 10-4; //variável do tipo inteiro de nome "subtracao" recebe o valor da subtração entre 10 e 4;
 
         System.out.println("O valor da subtração 10 - 4 = " + soma);
 
         //Também pode ser declarado como:
-        int num1 = 10; //variavel inteira de nome "num1" recebe o valor de 10.
+        int num1 = 10; //variável do tipo inteiro de nome "num1" recebe o valor de 10.
 
-        int num2 = 4; //variavel inteira de nome "num2" recebe o valor de 4.
+        int num2 = 4; //variável do tipo inteiro de nome "num2" recebe o valor de 4.
 
-        int subtracao2 = num1 - num2; //variavel de nome "subtracao2" recebe o valor da subtração entre as variaveis de nome "num1" e "num2"
+        int subtracao2 = num1 - num2; //variável de nome "subtracao2" recebe o valor da subtração entre as variáveis de nome "num1" e "num2"
 
         System.out.println("O valor da subtracao entre " + num1 + " - " + num2 + " = " + subtracao2);
 
@@ -67,11 +67,11 @@ public class OperadorMultiplicacao {
         System.out.println("O valor da multiplicacao 10 * 4 = " + multiplicacao);
 
         //Também pode ser declarado como:
-        int num1 = 10; //variavel inteira de nome "num1" recebe o valor de 10.
+        int num1 = 10; //variável inteira de nome "num1" recebe o valor de 10.
 
-        int num2 = 5; //variavel inteira de nome "num2" recebe o valor de 5.
+        int num2 = 5; //variável inteira de nome "num2" recebe o valor de 5.
 
-        int multiplicacao2 = num1 * num2; //variavel de nome "multiplicacao2" recebe o valor da multiplicacao entre as variaveis de nome "num1" e "num2"
+        int multiplicacao2 = num1 * num2; //variável de nome "multiplicacao2" recebe o valor da multiplicacao entre as variáveis de nome "num1" e "num2"
 
         System.out.println("O valor da multiplicacao entre " + num1 + " * " + num2 + " = " + multiplicacao2);
 
@@ -87,22 +87,24 @@ Como o nome já diz, é um operador que realiza uma divisão, ele pode ser atrib
 public class OperadorDivisao {
     public static void main(String args[]) {
 
-        int divisao = 10/5; //variável inteira de nome "divisao" recebe o valor da divisão entre 10 e 5;
+        int divisao = 10/5; //variável do tipo inteiro de nome "divisao" recebe o valor da divisão entre 10 e 5;
 
         System.out.println("O valor da divisão 10 / 5 = " + divisao);
 
         //Também pode ser declarado como:
-        int num1 = 10; //variavel inteira de nome "num1" recebe o valor de 10.
+        int num1 = 10; //variável do tipo inteiro de nome "num1" recebe o valor de 10.
 
-        int num2 = 5; //variavel inteira de nome "num2" recebe o valor de 5.
+        int num2 = 5; //variável do tipo inteiro de nome "num2" recebe o valor de 5.
 
-        int divisao2 = num1 * num2; //variavel de nome "divisao2" recebe o valor da divisao entre as variaveis de nome "num1" e "num2"
+        int divisao2 = num1 / num2; //variável de nome "divisao2" recebe o valor da divisao entre as variáveis de nome "num1" e "num2"
 
         System.out.println("O valor da divisao entre " + num1 + " / " + num2 + " = " + divisao2);
 
     }
 }
 ```
+
+
 
 <h2> Operador de Mod </h2>
 
@@ -112,16 +114,16 @@ Esse operador retorna o resto de de uma divisão. O exemplo a baixo fica mais si
 public class OperadorMod {
     public static void main(String args[]) {
 
-        int mod = 10%5; //variável inteira de nome "mod" recebe o valor do resto da divisão entre 10 e 5;
+        int mod = 10%5; //variável do tipo inteiro de nome "mod" recebe o valor do resto da divisão entre 10 e 5;
 
         System.out.println("O valor da divisão 10 / 5 = " + divisao);
 
         //Também pode ser declarado como:
-        int num1 = 10; //variavel inteira de nome "num1" recebe o valor de 10.
+        int num1 = 10; //variável do tipo inteiro de nome "num1" recebe o valor de 10.
 
-        int num2 = 5; //variavel inteira de nome "num2" recebe o valor de 5.
+        int num2 = 5; //variável do tipo inteiro de nome "num2" recebe o valor de 5.
 
-        int mod2 = num1  num2; //variavel de nome "mod2" recebe o valor do resto da divisão entre as variaveis de nome "num1" e "num2"
+        int mod2 = num1 % num2; //variável de nome "mod2" recebe o valor do resto da divisão entre as variáveis de nome "num1" e "num2"
 
         System.out.println("O valor da multiplicacao entre " + num1 + " * " + num2 + " = " + multiplicacao2);
 
@@ -130,26 +132,26 @@ public class OperadorMod {
 ```
 
 <h2> Incremento e Decremento </h2>
-Esses operadores são a forma reduzida de fazer uma váriavei incrimentar em 1 e descrementar em 1. São muito utilizados e importantes de se entender como eles funcionam.
+Esses operadores são a forma reduzida de fazer uma variável incrementar em 1 e decrementar em 1. São muito utilizados e importantes de se entender como eles funcionam.
 
 ```java
 public class IncrementoDecremento {
     public static void main(String args[]) {
-        int variavel1 = 10; //variavel inteira de nome "variavel1" recebe o valor 10.
+        int variavel1 = 10; //variável do tipo inteiro de nome "variavel1" recebe o valor 10.
     
         System.out.println(variavel1); //mostra o valor da variavel1
 
-        variavel1++;//incrementa o valor da variavel1 em 1.
+        variavel1++;//incrementa o valor da do tipo inteiro em 1.
 
         System.out.println(variavel1); //mostra o valor da variavel1 incrementada
 
-        int variavel2 = 20; //variavel inteira de nome "variavel2" recebe o valor de 20.
+        int variavel2 = 20; //variável do tipo inteiro de nome "varivel2" recebe o valor de 20.
 
         System.out.println(variavel2); //mostra o valor da variavel2
 
         variavel2--; //decrementa o valor da variavel2 em 1.
 
-        System.out.println(variavel2); //mostra o valor da variavel2 decrementada.
+        System.out.println(variavel2); //mostra o valor da variável2 decrementada.
  
     }
 }

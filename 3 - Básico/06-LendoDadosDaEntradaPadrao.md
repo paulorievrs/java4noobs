@@ -37,4 +37,4 @@ public class Leitura {
     }
 }
 ```
-Obs: Após digitar um dado aperte enter para prosseguir com a continuação do programa.
+**Obs:** Após digitar um dado aperte enter para prosseguir com a continuação do programa.

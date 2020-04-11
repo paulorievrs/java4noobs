@@ -19,7 +19,7 @@ public class If {
         int idade1 = 50;
         int idade2 = 10;
 
-        if (idade1 > idade2 10) { //lê-se se a idade1 for maior que a idade2, ocorre o que estiver entre os blocos de chaves.
+        if (idade1 > idade2) { //lê-se se a idade1 for maior que a idade2, ocorre o que estiver entre os blocos de chaves.
             System.out.println("A idade1 é maior que a idade2");
         }
     }
@@ -36,7 +36,7 @@ public class IfElse {
         int idade1 = 10;
         int idade2 = 50;
 
-        if (idade1 > idade2 10) { //lê-se: se a idade1 for maior que a idade2, ocorre o que estiver entre os blocos de chaves.
+        if (idade1 > idade2) { //lê-se: se a idade1 for maior que a idade2, ocorre o que estiver entre os blocos de chaves.
             System.out.println("A idade1 é maior que a idade2");
         } else { //lê-se: se não, ocorre o que estive dentro dos blocos.
             System.out.println("A idade2 é maior que a idade1");
@@ -82,12 +82,12 @@ import java.util.Scanner;
 public class Switch {
     public static void main(String args[]) {
         Scanner leitor = new Scanner(System.in);
-        int caso = 0; //inicializando váriavel com um valor qualquer.
+        int caso = 0; //inicializando variável com um valor qualquer.
 
         System.out.println("Digite 1 para mostrar o nome Paulo, 2 para mostrar o nome José, e 3 para mostrar o nome Joyce");
         caso = leitor.nextInt();
 
-        switch (caso) { //inicia-se a estrutura com switch e colocando a variavel que quer olhar na frente.
+        switch (caso) { //inicia-se a estrutura com switch e colocando a variável que quer olhar na frente.
 
         //os casos são de acordo com o que você espera da variável. é testado cada caso verificando se é compativel com o que foi digitado.
 
@@ -104,7 +104,6 @@ public class Switch {
             break;
 
             default: //caso o que foi digitado não seja nenhum dos casos que definiu o default é acionado. Ele não é necessário.
-
                 System.out.println("Valor não encontrado no menu");
             //nao é necessário break por ser o último caso.
         }

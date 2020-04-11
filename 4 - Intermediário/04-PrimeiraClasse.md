@@ -2,7 +2,7 @@
 Vamos agora criar a primeira classe aonde os conceitos foram apresentados no módulo anterior.
 
 ```java
-class Pessoa { //nao é necessário dizer que ela é publica se ela nao armazenar a classe principal
+class Pessoa { //não é necessário dizer que ela é publica se ela não armazenar a classe principal
 
     //criação de atributos privados pelo encapsulamento
     private String nome;
@@ -10,7 +10,7 @@ class Pessoa { //nao é necessário dizer que ela é publica se ela nao armazena
     private String cpf;
 
     public Pessoa() {
-        //esse é o construtor que quando voce instancia o objeto ele coloca esses valores nos atributos
+        //esse é o construtor, a primeira função  que é executada quando instancia a classe sem passar nenhum parâmetro.
         this.nome = "";
         this.idade = 0;
         this.cpf = "";
@@ -18,7 +18,8 @@ class Pessoa { //nao é necessário dizer que ela é publica se ela nao armazena
     }
 
     public Pessoa(String nome, int idade, String cpf) {
-        //se voce chamar o construtor e colocar entre parenteses todos os atributos eles já são inseridos automaticamente
+        //Esse construtor permite você instanciar a classe e passar parâmetros.
+        //se voce chamar o construtor e colocar entre parenteses todos os atributos eles já são inseridos automaticamente.
         this.nome = nome;
         this.idade = idade;
         this.cpf = cpf;
@@ -27,40 +28,40 @@ class Pessoa { //nao é necessário dizer que ela é publica se ela nao armazena
     //como os atributos são privados, esses métodos abaixo são a única maneira de manipula-los.
 
 
-    //criação dos get e sets.
+    //criação dos getters e setters.
 
 
     public void setNome(String nome) {
-        //chamando esse método com o objeto pessoa, passando o nome como parametro, adiciona o nome naquele objeto.
+        //chamando esse método com o objeto Pessoa, passando o nome como parametro, atribui o nome no objeto.
 
         this.nome = nome; //o this significa que está utilizando o objeto que chamou o método.
     }
 
     public String getNome() {
-        return this.nome; //retorna o nome do objeto que chamou o método.
+        return this.nome; //retorna o atributo nome do objeto que chamou o método.
     }
 
     public void setIdade(int idade) {
-        //chamando esse método com o objeto pessoa, passando a idade como parametro, adiciona a idade naquele objeto.
+        //chamando esse método com o objeto Pessoa, passando a idade como parâmetro, atribui a idade no objeto.
 
         this.idade = idade; //o this significa que está utilizando o objeto que chamou o método.
     }
 
     public int getIdade() {
-        return this.idade; //retorna a idade do objeto que chamou o método.
+        return this.idade; //retorna o atributo idade do objeto que chamou o método.
     }
 
     public void setCpf(String cpf) {
-        //chamando esse método com o objeto pessoa, passando o cpf como parametro, adiciona o cpf naquele objeto.
+        //chamando esse método com o objeto Pessoa, passando o cpf como parametro, atribui o cpf no objeto.
 
         this.cpf = cpf; //o this significa que está utilizando o objeto que chamou o método.
     }
 
     public String getCpf() {
-        return this.cpf; //retorna o cpf do objeto que chamou o método.
+        return this.cpf; //retorna o atributo cpf do objeto que chamou o método.
     }
 
-    //funcoes que a classe faria.
+    //funções que a classe faria.
 
     public void aumentarIdade() {
         //função que ao ser chamada aumenta a idade em 1 da Pessoa.

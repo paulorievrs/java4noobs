@@ -4,7 +4,7 @@ Para iniciar esse módulo é necessário que você tenha lido os anteriores. Par
 
 ## Criar arquivo
 
-Em Java existem peculiaridades para seu programa funcionar direito, a criação de ser arquivo pode ter qualquer nome, mas, a primeira letra dele deve ser maiúscula e ele deve conter a extensão '.java'. Irei apresentar um exemplo que irei seguir o resto desse tutorial, fique à vontade para copiar.
+Em Java existem peculiaridades para seu programa funcionar direito, o arquivo pode ter qualquer nome, mas, a primeira letra dele deve ser maiúscula e ele deve conter a extensão '.java'. Irei apresentar um exemplo que irei seguir o resto desse tutorial, fique à vontade para copiar.
 
 O nome do meu primeiro arquivo será:
 > Hello.java

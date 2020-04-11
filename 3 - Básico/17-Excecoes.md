@@ -33,4 +33,4 @@ public class Excecoes {
     }
 }
 ```
-O bloco try se inicia para tentar fazer o que está dentro dele, se der errado, terá um catch que pegará uma exceção, nesse caso eu generalizei mas você pode especificar elas. Quando cai dentro do catch, ele realiza o que ta lá dentro. Podem existis vários blocos de catch, assim como os elseif, vão sendo procuradas execções para serem pegas, ao vim de tudo se realiza o bloco finally.
+O bloco try se inicia para tentar fazer o que está dentro dele, se der errado, terá um catch que pegará uma exceção, nesse caso eu generalizei mas você pode especificar elas. Quando cai dentro do catch, ele realiza o que ta lá dentro. Podem existis vários blocos de catch, assim como os elseif, vão sendo procuradas exceções para serem pegas, ao fim de tudo se realiza o bloco finally.

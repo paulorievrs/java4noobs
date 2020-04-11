@@ -12,22 +12,22 @@ import java.util.Scanner;
 public static void leitor() throws IOException {
         BufferedReader leitor = new BufferedReader(new FileReader("./nomedoarquivo.txt"));
         //criando objeto da classe BufferedReader para ler o arquivo, passando como parametro um 
-        //objeto da classe FileReader que recebe como parametro a localização do arquivo.
+        //objeto da classe FileReader que recebe como parâmetro a localização do arquivo.
 
 
-        String linha = ""; //String para mostrar o conteudo do arquivo.
+        String linha = ""; //String para mostrar o conteúdo do arquivo.
 
         while (true) { //enquanto for verdadeiro, ou seja, para sempre
 
             if (linha != null) { //testando se o arquivo acabou
             
-                System.out.println(linha); //mostrar conteudo.
+                System.out.println(linha); //mostrar conteúdo.
  
             } else {
                 break; //encerrar o loop se encontrar null
             }
 
-            linha = leitor.readLine(); //variável linha recebe o contrudo do arquivo.
+            linha = leitor.readLine(); //variável linha recebe o conteúdo do arquivo.
         }
         leitor.close(); //encerra o uso do leitor do arquivo.
     }

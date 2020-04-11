@@ -5,7 +5,7 @@ Um método/função realiza uma parte do código em uma área diferente da **FUN
 
 Assim como existe a tipagem de variáveis é da mesma maneira de uma função. Cada um função deve ter um tipo, se você não quer que retorne nada o tipo será **void**. Ficará melhor de entender ao longo dos códigos. Também existem os parâmetros, que você pode passar para uma função utilizar algumas variáveis de sua preferência.
 
-A sintaxe de uma função é muito parecida com a main, você vai iniciar com **public**, depois **static** e agora vem o tipo de função, que são os mesmo tipos de variáveis (int, float, double, etc...), depois isso vem obrigatoriamente parenteses que dentro você pode receber variaveis durante a chamada da função, e dentro da função, se ela nao for do tipo void, deve conter algum retorno do mesmo tipo dela.
+A sintaxe de uma função é muito parecida com a main, você vai iniciar com **public**, depois **static** e agora vem o tipo de função, que são os mesmo tipos de variáveis (int, float, double, etc...), depois isso vem obrigatoriamente parenteses que dentro você pode receber variáveis durante a chamada da função, e dentro da função, se ela nao for do tipo void, deve conter algum retorno do mesmo tipo dela.
 
 Exemplo básico:
 ```java
@@ -22,11 +22,11 @@ public class InicioFuncoes {
 
         int c = a + b; //c vai receber a soma do que foi passado nos parametros
 
-        return c; //return é um comando para voltar alguma variavel (ou ate mesmo outra funcao) do mesmo tipo que a funcao foi criada.
+        return c; //return é um comando para voltar alguma variável (ou ate mesmo outra funcao) do mesmo tipo que a funcao foi criada.
     }
 
     public static void mostrar(int x) {
-        //x é uma variavel qualquer passada por parametro
+        //x é uma variável qualquer passada por parametro
         System.out.println(x); //mostra o conteudo que veio em x.
     }
 
@@ -37,7 +37,7 @@ public class InicioFuncoes {
 
         int c = soma(a, b); //chamando a funcao e atribuindo o que retorna dela na variável c. É passado por parametro os valores que você quer somar e a variável que vai receber deve ser do tipo de retorno da função.
 
-        mostrar(c); //chamando uma função sem retorno que mostra a variavel passada por paramentro
+        mostrar(c); //chamando uma função sem retorno que mostra a variável passada por paramentro
     }
 }
 ```
