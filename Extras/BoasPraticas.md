@@ -3,8 +3,8 @@ Aqui está um mini compilado sobre como ter boas práticas de programação, se 
 
 Durante o curso, é ensinado aos poucos as boas práticas básicas de programação, irei deixar um compilado aqui como referência para você se lembrar.
 
-<li> <a href="#"> Identação e documentação </a> </li>
-<li> <a href="#"> Nomes claros de váriaveis </a> </li>
+<li> <a href="#"> indentação e documentação </a> </li>
+<li> <a href="#"> Nomes claros de variáveis </a> </li>
 <li><a href="#"> Estrutura de Repetições utilizando i e j</li>
 <li> <a href="#"> Nomes claros de funções </a> </li>
 

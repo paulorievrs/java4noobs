@@ -46,10 +46,9 @@ public class ArraysEfuncoes {
         }
         return acumularSoma;
         
-        //esse for é de estrema importância pois nele é possivel
-        //somar todas as posições utilizando a variavel de controle
-        //testa-lo e tentar fazer ele sozinho é de estrema importancia.
-
+        //esse for é de extrema importância pois nele é possivel
+        //somar todas as posições utilizando a variável de controle
+        //testá-lo e tentar fazer ele sozinho é muito importante.
     }
 
     public static void main(String args[]) {
@@ -68,14 +67,36 @@ public class ArraysEfuncoes {
     }
 }
 ```
+<br>
 
-Uma pergunta foi feita na função de somar as idades. O tamanho do array pode ser algo não definido na hora da criação do programa. Como foi dito, o array é um objeto, e objetos tem seus próprios métodos como o Scanner que possui metodos de leitura.
+As arrays em Java tem uma propriedade chamada length, usando ela você consegue pegar o tamanho do array.
+```java
+public class TamanhoArray{
+    public static void main(String[] args){
+        String[] alunos = new String[4];
+        alunos[0] = "Alberto";
+        alunos[1] = "Gustavo";
+        alunos[2] = "Lucas";
+        alunos[3] = "Bruno";
 
-Todo Array em Java tem alguns métodos para auxiliar o programador. Vou destacar dois importantes.
+        System.out.println(alunos.length);
+        //Exibe 4, que é o tamanho do array
+    }
+}
+```
 
-<li>nomeDoArray.length - Seu uso é simples, coloque o nome do array e depois um ponto final e a instancia do metodo, no caso o length, pense que ele se torna uma variável que nela aparece o valor do tamanho do Array. Os parenteses sao necessáros assim como a chamada de uma função</li>
+Existe uma classe chamada Arrays, ela é uma classe com muitos métodos estáticos para facilitar a manipulação de arrays.
 
-<li>nomeDoArray.sort() - é metodo do array que ordena ele de ordem crescente. Você pode fazer um outro array receber o ordenado.
+Alguns métodos dos mais importantes são:
+
+
+<li>Arrays.toString(array) - Esse método recebe uma array como parâmetro e retorna a array em forma de String.</li> 
+
+<li>Arrays.sort(array) - Esse método recebe uma array e ordena ela.</li>
+
+<li>Arrays.copyOf(array, novoTamanho) - Esse método recebe uma array e um novo tamanho e como retorno tem a mesma array com o tamanho novo passado.</li>
+<br>
+
 
 
 ```java
@@ -93,8 +114,13 @@ public class MetodosArray {
         System.out.println(idadeAlunos.length);
         //mostra o tamanho do array.
         
-        int[] ordenado = idadeAlunos.sort();
-        //ordena em ordem crescente o array
+        System.out.println(Arrays.toString(idadeAlunos));
+        //Retorna [10, 11, 13 , 12, 11]
 
+        int[] idadeAlunos2 = Arrays.copyOf(idadeAlunos, 10);
+        //IdadeAlunos2 vai ter os mesmos valores mas invés de 5 irá ter 10 de tamanho.
+        
+        Arrays.sort(idadeAlunos);
+        //idadeAlunos agora estão em ordem crescente
     }
 }

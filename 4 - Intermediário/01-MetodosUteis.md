@@ -10,7 +10,7 @@ String s = leitor.next();
 System.out.println(s.length());
 ```
 
-Esse programa mostra o tamanho da String que veio do usuário. Para utilizar isso digite o nome da String e depois coloque .length() para instanciar o método, diferente do Array, esse é necessário colocar os parênteses.
+Esse programa mostra o tamanho da String que veio do usuário. Para utilizar isso digite o nome da String e depois coloque .length() para instanciar o método, diferente do array, esse é necessário colocar os parênteses.
 
 <h2>CharAt</h2>
 A String é composta por vários caracteres, mas há um meio de você conseguir "pegar" qualquer um deles.

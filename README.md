@@ -30,9 +30,9 @@
 ### Módulo Básico
 
 1. 🥇 [Primeiro Programa](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/01-Primeiro-Programa.md)
-2. [Tipos de variáveis](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/02-Tipos-De-Variaveis.md)
-3. [Documentação e Identação](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/03-Documenta%C3%A7%C3%A3o-Identa%C3%A7%C3%A3o.md)
-4. 🚦 [Váriaveis](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/04-DeclaracaoDeVariaveis.md)
+2. [Tipos de variáveis](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/02-Tipos-De-variáveis.md)
+3. [Documentação e indentação](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/03-Documenta%C3%A7%C3%A3o-Identa%C3%A7%C3%A3o.md)
+4. 🚦 [variáveis](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/04-DeclaracaoDevariáveis.md)
 5. ➕➖ [Operadores Aritméticos](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/05-OperadoresMatematicos.md)
 6. 🎹 [Ler dados da entrada padrão](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/06-LendoDadosDaEntradaPadrao.md)
 7. ❗❓ [Operadores Lógicos e de Comparação](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/07-OperadoresLogicos-e-Comparacao.md)

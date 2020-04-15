@@ -1,5 +1,5 @@
 <h1>Matrizes ou Arrays Multidimensionais</h1>
-De acordo com a <a href="https://www.inf.pucrs.br/~pinho/LaproI/Vetores/Vetores.htm">PUCRS</a>: Uma matriz é uma coleção de variáveis de mesmo tipo, acessíveis com um único nome e armazenados contiguamente na memória. A individualização de cada variável de um vetor é feita através do uso de índices. Os Vetores são matrizes de uma só dimensão. 
+De acordo com a <a href="https://www.inf.pucrs.br/~pinho/LaproI/Vetores/Vetores.htm">PUCRS</a>: Uma matriz é uma coleção de variáveis de mesmo tipo, acessíveis com um único nome e armazenados continuamente na memória. A individualização de cada variável de um vetor(array) é feita através do uso de índices. Os Vetores são matrizes de uma só dimensão. 
 
 Logo, uma matriz é um array de várias posições, portanto, também é um objeto.
 
@@ -23,11 +23,10 @@ public class Matrizes {
         
     }
 }
+
 ```
 Essa matriz é representada matematicamente assim:
 
 <img src="../img/matrizes.png">
 
 A primeira parte da declaração é qual linha e a segunda parte é qual coluna voce quer colocar o dado. Também inicia-se com 0 ambas.
-
-
