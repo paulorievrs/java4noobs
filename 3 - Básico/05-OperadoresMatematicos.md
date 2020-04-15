@@ -125,7 +125,7 @@ public class OperadorMod {
 
         int mod2 = num1 % num2; //variável de nome "mod2" recebe o valor do resto da divisão entre as variáveis de nome "num1" e "num2"
 
-        System.out.println("O valor da multiplicacao entre " + num1 + " * " + num2 + " = " + multiplicacao2);
+        System.out.println("O valor da multiplicacao entre " + num1 + " * " + num2 + " = " + mod2);
 
     }
 }
