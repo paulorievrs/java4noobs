@@ -3,8 +3,7 @@ Ambos os operadores são utilizados em maioria em estruturas de condição, que,
 
 <h2> Operadores Lógicos </h2>
 
->Imagem retirada do <a href="https://github.com/hellowluan/
-java-basico" target="_blank"> repositório do hellowluan.
+>Imagem retirada do <a href="https://github.com/hellowluan/java-basico" target="_blank"> repositório do hellowluan.
 
 <img src="../img/OperadoresLogicos.png"> </a>
 

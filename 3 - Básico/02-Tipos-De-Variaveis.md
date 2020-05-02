@@ -2,9 +2,9 @@
 
 >Esse arquivo é teórico, porém, é de extrema necessidade para progredir
 
-Em Java há tipos de variáveis, que, são como por exemplo os cojuntos matemáticos.
+Em Java há tipos de variáveis, que, são como por exemplo os conjuntos matemáticos.
 
-O seu computador e o compilador precisam entender como estão ocorrendo as trocas de dados, operações e chamadas de função. Nada melhor do que você que está redigindo um programa para "contar a ele". Em Java, C, C++ e muitas outras são de extrema necessidade a tipagem de variáveis.
+O seu computador e o compilador precisam entender como estão ocorrendo as trocas de dados, operações e chamadas de função. Nada melhor do que você que está redigindo um programa para "contar a ele". Em Java, C, C++ e muitas outras linguagens, são de extrema necessidade a tipagem de variáveis.
 <hr>
 
 <h2> Inteiros </h2>

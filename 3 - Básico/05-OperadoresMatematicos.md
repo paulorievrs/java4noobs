@@ -157,4 +157,4 @@ public class IncrementoDecremento {
 }
 ```
 
-**Obs**: Operações entre parenteses seram resolvidas primeiro, e depois de multiplicação, divisão e módulo.
+**Obs**.: Operações entre parenteses seram resolvidas primeiro, e depois de multiplicação, divisão e módulo.

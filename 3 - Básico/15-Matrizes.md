@@ -1,5 +1,5 @@
 <h1>Matrizes ou Arrays Multidimensionais</h1>
-De acordo com a <a href="https://www.inf.pucrs.br/~pinho/LaproI/Vetores/Vetores.htm">PUCRS</a>: Uma matriz é uma coleção de variáveis de mesmo tipo, acessíveis com um único nome e armazenados continuamente na memória. A individualização de cada variável de um vetor(array) é feita através do uso de índices. Os Vetores são matrizes de uma só dimensão. 
+De acordo com a <a href="https://www.inf.pucrs.br/~pinho/LaproI/Vetores/Vetores.htm">PUCRS</a>: Uma matriz é uma coleção de variáveis de mesmo tipo, acessíveis com um único nome e armazenados contiguamente(lado a lado) na memória. A individualização de cada variável de um vetor(array) é feita através do uso de índices. Os Vetores são matrizes de uma só dimensão. 
 
 Logo, uma matriz é um array de várias posições, portanto, também é um objeto.
 
@@ -7,7 +7,7 @@ Exemplo básico:
 ```java
 int[][] nomes = new int[2][2];
 ```
-Para declarar uma matriz é necessário colocar o tipo dele, e na frente os 2 colchetes, depois o nome, como se fosse uma variável, depois ele vai receber "new" que é para instaciar o objeto, depois repete-se o tipo com os colchetes, só que dentro dele o tamanho que irá ser a matriz, ou seja, quantas posições ele vai ter, quantos dados podem ser armazenados. Nesse caso podem ser armazenado 4 dados, 2 * 2;
+Para declarar uma matriz é necessário colocar o tipo dele, e na frente os 2 colchetes, depois o nome, como se fosse uma variável, depois ele vai receber "**new**" que é para instaciar o objeto, depois repete-se o tipo com os colchetes, só que dentro dele o tamanho que irá ser a matriz, ou seja, quantas posições ele vai ter, quantos dados podem ser armazenados. Nesse caso podem ser armazenado 4 dados, 2 * 2;
 
 Um exemplo prático seria:
 ```java
@@ -19,7 +19,6 @@ public class Matrizes {
         A[0][1] = 2;
         A[1][0] = 3;
         A[1][1] = 4;
-        
         
     }
 }
