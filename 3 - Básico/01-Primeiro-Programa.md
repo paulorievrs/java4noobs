@@ -1,6 +1,6 @@
 ## Primeiro Programa
  
-Para iniciar esse módulo é necessário que você tenha lido os anteriores. Para melhor expriência peço para que ao ler este módulo você realize tudo que eu fizer em seu próprio editor de texto.
+Para iniciar esse módulo é necessário que você tenha lido os anteriores. Para melhor experiência, peço para que ao ler este módulo você realize tudo que eu fizer em seu próprio editor de texto.
 
 ## Criar arquivo
 
@@ -47,7 +47,7 @@ public class Hello {
 }
 ```
 
-O que foi adicionado se demonina função, em que exibe uma ou mais Strings. O *System.out* é um objeto para saída padrão, no nosso caso o monitor, mas, pode ser arquivos ou outros tipos de redirecionamento. o *println* é para falar que você quer "printar", ou seja, mostrar algo na tela que será passado como **parâmetro dentro dos parênteses** no nosso caso é ums *string* que escolhemos como "Hello World", que, é o que irá aparecer na tela.
+O que foi adicionado se demonina função, em que exibe uma ou mais Strings. O *System.out* é um objeto para saída padrão, no nosso caso o monitor, mas, pode ser arquivos ou outros tipos de redirecionamento. o *println* é para falar que você quer "printar", ou seja, mostrar algo na tela que será passado como **parâmetro dentro dos parênteses** no nosso caso é uma *String* que escolhemos como "Hello World", que, é o que irá aparecer na tela.
 
 #### Execução do arquivo
 
@@ -57,9 +57,9 @@ Para executar o arquivo é necessário que você abra o seu terminal (como ensin
 
 > java Hello
 
-com isso irá aparecer em seu terminal:
+Com isso, irá aparecer em seu terminal:
 
 <img src="https://i.imgur.com/X2hVyRa.png">
 
 
-Obs: tooda linha em seu programa, ao seu fim, se não for uma estrutura de repetição ou outras exceções deve conter um ';' ao seu fim.
+**Obs**.: Toda linha em seu programa, ao seu fim, se não for uma estrutura de repetição ou outras exceções deve conter um ';' ao seu fim.

@@ -2,7 +2,7 @@
 Afinal, o que é entrada padrão? A entrada padrão por início é seu teclado, ela pode ser redirecionada, mas vamos utilizar só o teclado como base.
 
 <h2>Importações</h2>
-Para ler os dados é necessário que impotemos um classe, então, na primeira linha do seu código insira:
+Para ler os dados é necessário que importemos um classe, então, na primeira linha do seu código insira:
 
 ```java
 import java.util.Scanner;
@@ -37,4 +37,4 @@ public class Leitura {
     }
 }
 ```
-**Obs:** Após digitar um dado aperte enter para prosseguir com a continuação do programa.
+**Obs**.: Após digitar um dado aperte enter para prosseguir com a continuação do programa.

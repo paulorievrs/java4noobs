@@ -1,7 +1,7 @@
 <h1>Estrutura condicionais</h1>
 Esse módulo irá apresentar a vocês as famosas estruturas de Condição como: if/else e switch.
 
-Para melhor entendimento você deve ter lido o módulo <a href="#">3.7-OperadoresLogicos-e-Comparacao.md</a>.
+Para melhor entendimento você deve ter lido o módulo <a href="https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/07-OperadoresLogicos-e-Comparacao.md">07 - Operadores Logicos e Comparacao</a>.
 
 <h2>IF/ELSE</h2>
 
@@ -47,7 +47,7 @@ public class IfElse {
 Basicamente é, se o que estiver entre os parênteses do **IF** der falso, ou seja, não for verdadeiro, o **ELSE** ocorre.
 
 
-<h3>ELSEIF</h3>
+<h3>ELSE IF</h3>
 
 O ELSE IF é meio complexo de entender, ele tem várias condições **IF** e por último cai na **ELSE**, ou seja, se ele der falso na primeira condição, ele parte para a próxima, se ele der falso na próxima ele passa para outra até atingir um else.
 
@@ -93,15 +93,15 @@ public class Switch {
 
             case 1: //caso for numero 1, entra
                 System.out.println("Paulo");
-            break; //break é necessário para informar o fim do bloco do caso.
+                break; //break é necessário para informar o fim do bloco do caso.
             
             case 2:
                 System.out.println("José");
-            break;
+                break;
 
             case 3: 
                 System.out.println("Joyce");
-            break;
+                break;
 
             default: //caso o que foi digitado não seja nenhum dos casos que definiu o default é acionado. Ele não é necessário.
                 System.out.println("Valor não encontrado no menu");

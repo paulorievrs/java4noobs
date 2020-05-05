@@ -1,9 +1,9 @@
-<h1>Metodos Úteis</h1>
+<h1>Métodos Úteis</h1>
 
 Em Java a String é tratado como um objeto, e como já visto, todo objeto tem alguns métodos que já vem junto com o Java. Com a String não é diferente, existem vários métodos para auxiliar o trabalho com elas.
 
 <h2>Tamanho da String</h2>
-Se uma string vem de um usuário, não tem como sabermos o tamanho dela, já que o usuário pode ter digitado qualquer coisa, então Java nos da uma ajuda com isso, veja:
+Se uma String vem de um usuário, não tem como sabermos o tamanho dela, já que o usuário pode ter digitado qualquer coisa, então Java nos da uma ajuda com isso, veja:
 
 ```java
 String s = leitor.next();
@@ -24,7 +24,7 @@ Assim como nos arrays as Strings tem posições que se iniciam do 0 e vai até o
 
 <h2>Split</h2>
 
-O método Split faz sua String se separar aonde tiver a ocorrência do caracter que passar como parametro.
+O método Split faz sua String se separar aonde tiver a ocorrência do caractere que passar como parametro.
 
 ```java
 String s = "Paulo Rievrs Oliveira";
@@ -34,14 +34,16 @@ String[] split = s.split(" ");
 O vetor split recebe em cada posição uma parte da String que foi separada em 3, no caso, a posição 0 vai conter "Paulo", a 1 vai conter "Rievrs" e a 2 vai conter "Oliveira".
 
 <h2> toLowerCase e toUpperCase</h2>
-O metodo toLowerCase transforma toda a String em letras minúsculas e o toUpperCase faz o contrário.
+O método toLowerCase transforma toda a String em letras minúsculas e o toUpperCase faz o contrário.
 
 ```java
 String s = "Paulo Rievrs Oliveira";
 System.out.println(s.toLowerCase());
+// Exibe: paulo rievrs oliveira
 System.out.println(s.toUpperCase());
+// Exibe: PAULO RIEVRS OLIVEIRA
 ```
-Os prints, mostram respectivamente toda a String s como minusculas e toda String s em letras maiúsculas.
+Os prints, mostram respectivamente toda a String **s** como minusculas e toda String **s** em letras maiúsculas.
 
 Alguns métodos não são da classe String mas também a manipula.
 
@@ -54,4 +56,4 @@ String s = "111";
 int num = Integer.parseInt(s);
 ```
 
-Para utilizar esse método não é necessário criar um objeto inteiro, é só utilizar Integer que é o nome da classe, e instanciar o metodo passando como parametro a String que quer transformar.
+Para utilizar esse método não é necessário criar um objeto inteiro, é só utilizar Integer que é o nome da classe, e instanciar o método passando como parametro a String que quer transformar.

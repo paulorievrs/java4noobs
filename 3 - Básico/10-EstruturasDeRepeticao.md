@@ -25,7 +25,7 @@ public class EstruturaDoWhile {
 ```
 
 <h2>While</h2>
-O While é uma estrutura que inicia olhando a condição de parada, se já tiver sido atingida não entra no bloco de repetição, se não tiver atingido a condição de parada roda o que tem dentro das chaves e depois verifica a condição novamente. A variável que vai gerar a condição de parada precisa ser criada fora da estrutura.
+O while é uma estrutura que inicia olhando a condição de parada, se já tiver sido atingida não entra no bloco de repetição, se não tiver atingido a condição de parada roda o que tem dentro das chaves e depois verifica a condição novamente. A variável que vai gerar a condição de parada precisa ser criada fora da estrutura.
 
 ```java
 public class EstruturaWhile {
@@ -49,7 +49,7 @@ public class EstruturaWhile {
 ```
 <h2>For</h2>
 
-O For é uma estrutura de repetição mais compacta, na qual, o bloco já determina aonde começa, a condição de parada e o passo dela (que é como essa variável se comportará para atingir a condição de parada), não é necessário declarar a variável antes, ela pode ser criada ao criar o for.
+O for é uma estrutura de repetição mais compacta, na qual, o bloco já determina aonde começa, a condição de parada e o passo dela (que é como essa variável se comportará para atingir a condição de parada), não é necessário declarar a variável antes, ela pode ser criada ao criar o for.
 
 ```java
 public class EstruturaFor {
@@ -62,5 +62,5 @@ public class EstruturaFor {
 }
 
 ```
-Todas as suas saídas tem que ser essa:
+Todas as suas saídas devem ser essa:
 <img src="../img/estruturasDeRepeticao.jpeg">
