@@ -65,9 +65,9 @@ public class EstruturaFor {
 Todas as suas saídas devem ser essa:
 <img src="../img/estruturasDeRepeticao.jpeg">
 
-<h2>ForEath</h2>
+<h2>For Eath</h2>
 
-É um tipo de For mais simplificado, mas mantém o mesmo princípio. Normalmente utilizada com Arrays, onde a variável que está dentro do ForEath irá receber o valor da variável que você quer percorrer(começando na posição 0), e a cada ciclo adiciona mais uma posição, até percorrer todo o Array
+É um tipo de For mais simplificado, mas mantém o mesmo princípio. Normalmente utilizada com Arrays, onde a variável que está dentro do For Eath irá receber o valor da variável que você quer percorrer(começando na posição 0), e a cada ciclo adiciona mais uma posição, até percorrer todo o Array
 
 ```java
 public class EstruturaForEath {
