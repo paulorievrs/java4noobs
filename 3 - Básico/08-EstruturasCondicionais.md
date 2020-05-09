@@ -74,6 +74,26 @@ public class ElseIf {
 }
 ```
 
+<h3>Operador ternário</h3>
+Operador ternário resumidamente tem o mesmo princípio do IF/ELSE só que de maneira simplificada em somente uma linha. Utilizado quando há somente um IF e um ELSE.
+
+```java
+public class OperadorTernario {
+    public static void main(String args[]) {
+        int idade1 = 60;
+        int idade2 = 50;
+        int idadeMaior;
+
+        idadeMaior = (idade1 > idade2 ? idade1 : idade2) { //lê-se: se a idade1 for maior que a idade2, idadeMaior vai receber o valor de idade1, caso contrário idadeMaior vai receber o valor de idade2.
+
+            System.out.println(idadeMaior); //resultado vai ser "60" porque idade1(60) é maior que idade2(50).
+
+        }
+    }
+}
+```
+Funciona da seguinte maneira: se a condição booleana <strong>(idade1 > idade2)</strong> for verdadeira, o que vai ser executado é o código que vem depois do <strong>"?"</strong>, e caso seja falso, o que vai ser executado vai ser o código que vem depois do <strong>":"</strong>.
+
 <h3>Switch Case</h3>
 O Switch Case é como se fosse a distribuição de um menu, no qual, dependendo do valor de uma variável pode realizar várias coisas. Na prática fica mais fácil de entender.
 
