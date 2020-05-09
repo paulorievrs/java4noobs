@@ -11,9 +11,9 @@ String[] nomes = {Daniel, Andre, João}; //exemplo 2
 float[] numeros; //exemplo 3
 numeros = new float[10]; //exemplo 3
 ```
-Existe várias formas de declarar um array. A primeira delas é declarando o tipo com os colchetes na frente, depois o nome seguido de "=" a pois isso, ele vai receber "new" que é para instanciar o objeto, depois repete-se o tipo com os colchetes, só que dentro dele o tamanho que irá ser o array, ou seja, quantas posições ele vai ter, quantos dados podem ser armazenados.<strong>(exemplo 1)</strong>
+Existe várias formas de declarar um array. A primeira delas é declarando o tipo com os colchetes na frente, depois o nome seguido de <strong>"="</strong> a pois isso, ele vai receber <strong>"new"</strong> que é para instanciar o objeto, depois repete-se o tipo com os colchetes, só que dentro dele o tamanho que irá ser o array, ou seja, quantas posições ele vai ter, quantos dados podem ser armazenados.<strong>(exemplo 1)</strong>
 
-Outra forma é logo após o "new" colocar os valores que preenchem aquele vetor dentro dos colchetes.<strong>(exemplo 2)</strong>
+Outra forma é logo após o <strong>"new"</strong> colocar os valores que preenchem aquele vetor dentro dos colchetes.<strong>(exemplo 2)</strong>
 
 E por fim pode-se instanciar ele depois de ser criado.<strong>(exemplo 3)</strong>
 
