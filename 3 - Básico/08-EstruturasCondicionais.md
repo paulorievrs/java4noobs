@@ -84,7 +84,7 @@ public class OperadorTernario {
         int idade2 = 50;
         int idadeMaior;
 
-        idadeMaior = (idade1 > idade2 ? idade1 : idade2) { //lê-se: se a idade1 for maior que a idade2, idadeMaior vai receber o valor de idade1, caso contrário idadeMaior vai receber o valor de idade2.
+        idadeMaior = (idade1 > idade2 ? idade1 : idade2) { //lê-se: idadeMaior vai receber o valor de idade1 se a condição for verdadeira, caso contrário idadeMaior vai receber o valor de idade2
 
             System.out.println(idadeMaior); //resultado vai ser "60" porque idade1(60) é maior que idade2(50).
 
