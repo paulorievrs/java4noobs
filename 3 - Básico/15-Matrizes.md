@@ -7,7 +7,7 @@ Exemplo básico:
 ```java
 int[][] nomes = new int[2][2];
 ```
-Para declarar uma matriz é necessário colocar o tipo dele, e na frente os 2 colchetes, depois o nome, como se fosse uma variável, depois ele vai receber "**new**" que é para instaciar o objeto, depois repete-se o tipo com os colchetes, só que dentro dele o tamanho que irá ser a matriz, ou seja, quantas posições ele vai ter, quantos dados podem ser armazenados. Nesse caso podem ser armazenado 4 dados, 2 * 2;
+Para declarar uma matriz é necessário colocar o tipo dele, e na frente os 2 conjuntos de colchetes, depois o nome, como se fosse uma variável, depois ele vai receber "**new**" que é para instanciar o objeto, depois repete-se o tipo com os colchetes, só que dentro deles o tamanho que irá ser a matriz, ou seja, quantas posições elas terão, quantos dados podem ser armazenados. Nesse caso podem ser armazenados 4 dados, 2 * 2;
 
 Um exemplo prático seria:
 ```java

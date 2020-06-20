@@ -1,9 +1,9 @@
 <h1>Continue e Break</h1>
 
-O continue e o break é um complemento as estruturas de repetição, eles causam algumas peculiaridades nessas estruturas.
+O Continue e o Break é um complemento para estruturas de repetição, eles causam algumas peculiaridades nessas estruturas.
 
 <h2> Break </h2>
-O break, como a tradução sugere, ele quebra e estrutura, se você incluir um break em qualquer parte da estrutura ele se encerra naquele momento e não executa o que está abaixo dela, independente da condição de parada. Por exemplo:
+O break, como a tradução sugere, quebra e estrutura, se você incluir um break em qualquer parte da estrutura, ele se encerra naquele momento e não executa o que está abaixo dela, independente da condição de parada. Por exemplo:
 
 ```java
 public class UsandoBreak {
@@ -25,7 +25,7 @@ Teria que ficar assim:
 
 <h2>Continue</h2>
 
-O comando continue é usado somente em laços de repetição. Quando ele é executado, o laço avança uma passo e volta imediatamente para o teste de condição do laço de repetição. Por exemplo:
+O comando Continue é usado somente em laços de repetição. Quando ele é executado, o laço avança um passo e volta imediatamente para o teste de condição do laço de repetição. Por exemplo:
 
 ```java
 public class Continue {
@@ -44,4 +44,4 @@ public class Continue {
 
 Teria que ficar assim:
 <img src="../img/Continue.jpeg">
-Observe que o valor 5 não foi exibido. Isso ocorreu pois o continue foi utilizado, portanto, todo o código que está abaixo do continue foi ignorado.
+Observe que o valor 5 não foi exibido. Isso ocorreu pois o Continue foi utilizado, portanto, todo o código que está abaixo do continue foi ignorado. Quando atingiu 6, a condição do if não foi satisfeita e a condição for seguiu até o fim.

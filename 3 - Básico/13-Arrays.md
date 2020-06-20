@@ -1,5 +1,5 @@
 <h1>Arrays</h1>
-Os Arrays são uma coleção de dados de algum tipo, qualquer tipo de variável pode conter uma coleção de itens, como por exemplo podemos criar um Array de numeros inteiros que representa o conjunto matemático Z, um Array de Strings que armazena vários nomes de uma lista de alunos.
+Os Arrays são uma coleção de dados de algum tipo, qualquer tipo de variável pode conter uma coleção de itens, como por exemplo podemos criar um Array de numeros inteiros que representam o conjunto matemático Z, um Array de Strings que armazena vários nomes de uma lista de alunos.
 
 Arrays são um objeto em Java, e por isso sua declaração se assemelha um pouco ao Scanner.
 
@@ -10,7 +10,7 @@ int[] nomes = new int[10];
 ```
 Para declarar um array é necessário colocar o tipo dele, e na frente os colchetes, depois o nome, como se fosse uma variável, depois ele vai receber "**new**" que é para instanciar o objeto, depois repete-se o tipo com os colchetes, só que dentro dele o tamanho que irá ser o array, ou seja, quantas posições ele vai ter, quantos dados podem ser armazenados.
 
-Cada dado inserido tem uma posição, que vai de 0 até o valor que você inseriu nos colchetes - 1. No nosso caso vai de 0 até 9, ou seja, 0, 1, 2, 3, 4..., 8, 9.
+Cada dado inserido tem uma posição, que vai de 0 até o valor que você inseriu nos colchetes - 10. No nosso caso vai de 0 até 9, ou seja, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
 
 Um exemplo prático seria:
 ```java
@@ -37,7 +37,7 @@ Passar o Array para uma função é bem útil, e também como retorná-lo. Vamos
 public class ArraysEfuncoes {
 
     public static int somaDosElementosDoArray(int[] idadeAlunos) {
-        //Receber um array como parâmetro é como se tivesse criando outro array, mas sem a parta da atribuição.
+        //Receber um array como parâmetro é como se tivesse criando outro array, mas sem a parte da atribuição.
 
         int acumularSoma = 0;
 
@@ -48,9 +48,11 @@ public class ArraysEfuncoes {
         }
         return acumularSoma;
         
-        //Esse for é de extrema importância pois nele é possivel
-        //Somar todas as posições utilizando a variável de controle
-        //Testá-lo e tentar fazer ele sozinho é muito importante.
+        /*
+        Esse for é de extrema importância pois nele é possivel
+        Somar todas as posições utilizando a variável de controle
+        Testá-lo e tentar fazer ele sozinho é muito importante.
+        */
     }
 
     public static void main(String args[]) {
@@ -71,7 +73,8 @@ public class ArraysEfuncoes {
 ```
 <br>
 
-As arrays em Java tem uma propriedade chamada length, usando ela você consegue pegar o tamanho do array.
+As arrays em Java tem uma propriedade chamada *length*, usando ela é possível capturar o tamanho do array.
+
 ```java
 public class TamanhoArray{
     public static void main(String[] args){
@@ -87,7 +90,7 @@ public class TamanhoArray{
 }
 ```
 
-Existe uma classe chamada Arrays, ela é uma classe com muitos métodos estáticos para facilitar a manipulação de arrays.
+Existe uma classe chamada Arrays, é uma classe com muitos métodos estáticos para facilitar a manipulação de arrays.
 
 Alguns métodos dos mais importantes são:
 
