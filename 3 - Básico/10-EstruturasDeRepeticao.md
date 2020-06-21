@@ -64,3 +64,19 @@ public class EstruturaFor {
 ```
 Todas as suas saídas devem ser essa:
 <img src="../img/estruturasDeRepeticao.jpeg">
+
+<h2>For Each</h2>
+
+É um tipo de For mais simplificado, mas mantém o mesmo princípio. Normalmente utilizada com Arrays, onde a variável que está dentro do For Each irá receber o valor da variável que você quer percorrer(começando na posição 0), e a cada ciclo adiciona mais uma posição, até percorrer todo o Array.
+
+```java
+public class EstruturaForEach {
+    public static void main(String args[]) {
+        int[] array = {1,2,3}; //veremos Arrays em uma próxima aula.
+        for(int contador : array) { //a variável iniciadora deve ser do mesmo tipo da que você quer percorrer.
+
+            System.out.println(contador); //mostra o contador até que o array tenha todas as posições percorridas.
+        }
+    }
+}
+```

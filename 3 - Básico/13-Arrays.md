@@ -6,9 +6,16 @@ Arrays são um objeto em Java, e por isso sua declaração se assemelha um pouco
 Exemplo básico:
 
 ```java
-int[] nomes = new int[10];
+int[] contador = new int[10]; //exemplo 1
+String[] nomes = {Daniel, Andre, João}; //exemplo 2
+float[] numeros; //exemplo 3
+numeros = new float[10]; //exemplo 3
 ```
-Para declarar um array é necessário colocar o tipo dele, e na frente os colchetes, depois o nome, como se fosse uma variável, depois ele vai receber "**new**" que é para instanciar o objeto, depois repete-se o tipo com os colchetes, só que dentro dele o tamanho que irá ser o array, ou seja, quantas posições ele vai ter, quantos dados podem ser armazenados.
+Existe várias formas de declarar um array. A primeira delas é declarando o tipo com os colchetes na frente, depois o nome seguido de <strong>"="</strong> a pois isso, ele vai receber <strong>"new"</strong> que é para instanciar o objeto, depois repete-se o tipo com os colchetes, só que dentro dele o tamanho que irá ser o array, ou seja, quantas posições ele vai ter, quantos dados podem ser armazenados.<strong>(exemplo 1)</strong>
+
+Outra forma é logo após o <strong>"new"</strong> colocar os valores que preenchem aquele vetor dentro dos colchetes.<strong>(exemplo 2)</strong>
+
+E por fim pode-se instanciar ele depois de ser criado.<strong>(exemplo 3)</strong>
 
 Cada dado inserido tem uma posição, que vai de 0 até o valor que você inseriu nos colchetes - 1. No nosso caso vai de 0 até 9, ou seja, 0, 1, 2, 3, 4..., 8, 9.
 
