@@ -2,18 +2,18 @@
 Afinal, o que é entrada padrão? A entrada padrão por início é seu teclado, ela pode ser redirecionada, mas vamos utilizar só o teclado como base.
 
 <h2>Importações</h2>
-Para ler os dados é necessário que importemos um classe, então, na primeira linha do seu código insira:
+Para ler os dados é necessário que importemos uma classe, então, na primeira linha do seu código insira:
 
 ```java
 import java.util.Scanner;
 ```
 
-Essa classe Scanner permite que criemos um objeto que consiga receber dados digitados.
+Essa classe Scanner permite que criemos um objeto que consiga receber dados digitados pelo usuário.
 
 <h2>Lendo dados</h2>
 A leitura de dados permite que você realize operações e simule um código rodando realmente com seus dados e não com pré-inserções.
 
-O Scanner consegue fazer leituras de todos os tipos de dados, mas é necessário utilizar de formas diferentes para cada tipo de dados.
+O Scanner consegue fazer leituras de todos os tipos de dados, mas é necessário utilizar de formas diferentes para cada tipo de dado.
 
 Ou ele lê uma linha inteira, ou um tipo especifíco.
 

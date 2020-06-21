@@ -1,6 +1,6 @@
 <h1> Tipos de variáveis </h1>
 
->Esse arquivo é teórico, porém, é de extrema necessidade para progredir
+>Esse arquivo é teórico, porém, é de extrema necessidade para progredir.
 
 Em Java há tipos de variáveis, que, são como por exemplo os conjuntos matemáticos.
 
@@ -29,7 +29,7 @@ Elas são utilizadas como "int" no código.
 
 <h2> Números flutuantes </h2>
 
-Uma variável de número flutante que são os números Reais do conjunto matématico. *R = {1.3, 1.2, 1.4}*
+Uma variável de número flutuante que são os números Reais do conjunto matématico. *R = {1.3, 1.2, 1.4}*
 
 É necessário afirmar que em programação os números não são definidos por vírgulas e sim com pontos, pois usa o sistema americano de numeração.
 
@@ -55,7 +55,7 @@ Elas são utilizadas como "float" ou "double" no código.
 
 <h2> Booleanos </h2>
 
-Esse tipo de variável é destacado por não ser um valor número. Ele armazena somente dois valores, *"TRUE"* ou *"FALSE"*, é extremamente importante para a programação.
+Esse tipo de variável é destacado por não ser um valor número. Ele armazena somente dois valores, *"TRUE"* ou *"FALSE"*, e é extremamente importante para a programação.
 
 Aqui está uma demonstração em código:
 ```java
@@ -72,12 +72,12 @@ public class TiposvariaveisBooleano {
 ```
 Elas são utilizadas como "boolean" no código.
 
-Nesse em específico mostrei como são declarados variáveis, mas será melhor explicado a diante.
+Nesse em específico mostrei como são declarados variáveis, mas será melhor explicado adiante.
 <hr>
 
 <h2>Char</h2>
 
-O tipo de variável **Char** armazena somente um caractere nele, seja letra ou caracter especial.
+O tipo de variável **Char** armazena somente um caractere nele, seja letra ou caractere especial.
 
 Aqui está uma demonstração em código:
 
@@ -94,19 +94,19 @@ public class TiposvariaveisChar {
 ```
 Elas são utilizadas como "char" no código.
 
-Você deve ter achado estranho eu utilizar um numeral, mas é possível fazer isso, mas não tem como fazer operações matemáticas com ele.
+Você deve ter achado estranho ter sido utilizado um numeral, mas é possível fazer isso, mas não tem como fazer operações matemáticas com ele.
 Esse tipo de variável deve ser contida entre aspas simples.
 
 <hr>
 <h2>Strings</h2>
-As string são um conjunto das variáveis Char, ou seja, uma palavra. E ela é um objeto.
+As strings são um conjunto das variáveis Char, ou seja, uma palavra. E ela é um objeto.
 
 Aqui está uma demonstração em código:
 
 ```java
 public class TiposvariaveisChar {
     public static void main(String args[]) {
-        System.out.println("azsassa");
+        System.out.println("abcdefgh");
         System.out.println("paralelepipedo");
         System.out.println("Batatinha quando nasce espalha a rama pelo chão");
         System.out.println("(31) 0000-0000");

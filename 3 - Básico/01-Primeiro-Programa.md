@@ -35,7 +35,7 @@ public class Hello {
 }
 ```
 
-O *public* também é para dizer que qualquer um pode acessar, o *static* são métodos da propria classe, *void* quer dizer que não retorna nada (explicarei melhor futuramente) e *main* quer dizer que é a classe principal, ela é a única função necessária para que o compilador identifique aonde irá iniciar o arquivo.
+O *public* também é para dizer que qualquer um pode acessar, o *static* são métodos da própria classe, *void* quer dizer que não retorna nada (explicarei melhor futuramente) e *main* quer dizer que é a classe principal, ela é a única função necessária para que o compilador identifique aonde irá iniciar o arquivo.
 
 Continuando:
 
@@ -47,7 +47,7 @@ public class Hello {
 }
 ```
 
-O que foi adicionado se demonina função, em que exibe uma ou mais Strings. O *System.out* é um objeto para saída padrão, no nosso caso o monitor, mas, pode ser arquivos ou outros tipos de redirecionamento. o *println* é para falar que você quer "printar", ou seja, mostrar algo na tela que será passado como **parâmetro dentro dos parênteses** no nosso caso é uma *String* que escolhemos como "Hello World", que, é o que irá aparecer na tela.
+O que foi adicionado se denomina função, em que exibe uma ou mais Strings. O *System.out* é um objeto para saída padrão, no nosso caso o monitor, mas, pode ser arquivos ou outros tipos de redirecionamento. o *println* é para falar que você quer "printar", ou seja, mostrar algo na tela que será passado como **parâmetro dentro dos parênteses** no nosso caso é uma *String* que escolhemos como "Hello World", que, é o que irá aparecer na tela.
 
 #### Execução do arquivo
 

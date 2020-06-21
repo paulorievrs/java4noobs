@@ -1,11 +1,13 @@
-<h1>Estrutura condicionais</h1>
+<h1>Estruturas condicionais</h1>
 Esse módulo irá apresentar a vocês as famosas estruturas de Condição como: if/else e switch.
 
 Para melhor entendimento você deve ter lido o módulo <a href="https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/07-OperadoresLogicos-e-Comparacao.md">07 - Operadores Logicos e Comparacao</a>.
 
 <h2>IF/ELSE</h2>
 
-Se você ler em português **"IF" = "SE"** e **ELSE = "SE NÃO"**, e na programção não é diferente, mas chama-se estruturas de condição pois acontece isso: *se 5 é maior que 10 faça isso, se não, faça aquilo*. Vamos seguir para o código que é mais simples de entender.
+Se você ler em português **"IF" = "SE"** e **ELSE = "SENÃO"**, e na programção não é diferente, mas chamam-se estruturas de condição pois acontece desta forma: *se 5 é maior que 10 faça isso, senão, faça aquilo*.
+
+Vamos seguir para o código que é mais simples de entender.
 
 O **IF** é uma estrutura separada do **ELSE** mas, o **ELSE** não existe sem um IF.
 
@@ -19,7 +21,7 @@ public class If {
         int idade1 = 50;
         int idade2 = 10;
 
-        if (idade1 > idade2) { //lê-se se a idade1 for maior que a idade2, ocorre o que estiver entre os blocos de chaves.
+        if (idade1 > idade2) { //leia-se "se a idade1 for maior que a idade2, ocorre o que estiver entre os blocos de chaves".
             System.out.println("A idade1 é maior que a idade2");
         }
     }
@@ -36,9 +38,9 @@ public class IfElse {
         int idade1 = 10;
         int idade2 = 50;
 
-        if (idade1 > idade2) { //lê-se: se a idade1 for maior que a idade2, ocorre o que estiver entre os blocos de chaves.
+        if (idade1 > idade2) { //leia-se "se a idade1 for maior que a idade2, ocorre o que estiver entre os blocos de chaves".
             System.out.println("A idade1 é maior que a idade2");
-        } else { //lê-se: se não, ocorre o que estive dentro dos blocos.
+        } else { //leia-se: "senão, ocorre o que estive dentro dos blocos".
             System.out.println("A idade2 é maior que a idade1");
         }
     }
@@ -49,7 +51,7 @@ Basicamente é, se o que estiver entre os parênteses do **IF** der falso, ou se
 
 <h3>ELSE IF</h3>
 
-O ELSE IF é meio complexo de entender, ele tem várias condições **IF** e por último cai na **ELSE**, ou seja, se ele der falso na primeira condição, ele parte para a próxima, se ele der falso na próxima ele passa para outra até atingir um else.
+O ELSE IF é um pouco mais complexo de entender, ele tem várias condições **IF** e por último cai na **ELSE**, ou seja, se ele der falso na primeira condição, ele parte para a próxima, se ele der falso na próxima, ele passa para outra até que atinja uma condição else.
 
 
 ```java
@@ -58,15 +60,15 @@ public class ElseIf {
         int idade1 = 50;
         int idade2 = 50;
 
-        if (idade1 > idade2 10) { //lê-se: se a idade1 for maior que a idade2, ocorre o que estiver entre os blocos de chaves.
+        if (idade1 > idade2 10) { //leia-se: "se a idade1 for maior que a idade2, ocorre o que estiver entre os blocos de chaves".
 
             System.out.println("A idade1 é maior que a idade2");
 
-        } else if (idade1 < idade2) { //lê-se: se não ocorreu o que tava no bloco anterior, se a idade1 for menor que idade2 ocorre o que tiver dentro das chaves.
+        } else if (idade1 < idade2) { //leia-se: "se a condição do bloco anterior não foi satisfeita, E se a idade1 for menor que idade2, ocorre o que tiver dentro das chaves".
 
             System.out.println("A idade2 é maior que a idade1");
 
-        } else { //se não, ocorre o que estive dentro dos blocos.
+        } else { //senão, ocorre o que estive dentro dos blocos.
 
             System.out.println("A idade2 é igual que a idade1");
         }
@@ -111,7 +113,7 @@ public class Switch {
 
         //os casos são de acordo com o que você espera da variável. é testado cada caso verificando se é compativel com o que foi digitado.
 
-            case 1: //caso for numero 1, entra
+            case 1: //caso for numero 1, entra:
                 System.out.println("Paulo");
                 break; //break é necessário para informar o fim do bloco do caso.
             

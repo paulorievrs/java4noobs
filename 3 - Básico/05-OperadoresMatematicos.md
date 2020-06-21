@@ -6,7 +6,7 @@ Os operadores matemáticos são de importância fundamental para qualquer tipo d
 <img src="../img/OperadoresMatematicos.png"></a>
 
 <h2> Operador de Adição </h2>
-Como o nome já diz, é um operador que realiza uma soma, ele pode ser atribuido dentro de variáveis ou realizando soma de duas variáveis, no exemplo abaixo fará mais sentido.
+Como o nome já diz, é um operador que realiza uma soma, ele pode ser atribuído dentro de variáveis ou realizando soma de duas variáveis, no exemplo abaixo fará mais sentido.
 
 ```java
 public class OperadorAdicao {
@@ -31,7 +31,7 @@ public class OperadorAdicao {
 
 <h2> Operador de subtração </h2>
 
-Como o nome já diz, é um operador que realiza uma subtração, ele pode ser atribuido dentro de variáveis ou realizando subtrações de duas variáveis, no exemplo abaixo fará mais sentido.
+Como o nome já diz, é um operador que realiza uma subtração, ele pode ser atribuído dentro de variáveis ou realizando subtrações de duas variáveis, no exemplo abaixo fará mais sentido.
 
 ```java
 public class OperadorSubtracao {
@@ -56,7 +56,7 @@ public class OperadorSubtracao {
 
 <h2> Operador de multiplicação </h2>
 
-Como o nome já diz, é um operador que realiza uma multiplicação, ele pode ser atribuido dentro de variáveis ou realizando subtrações de duas variáveis, no exemplo abaixo fará mais sentido.
+Como o nome já diz, é um operador que realiza uma multiplicação, ele pode ser atribuído dentro de variáveis ou realizando subtrações de duas variáveis, no exemplo abaixo fará mais sentido.
 
 ```java
 public class OperadorMultiplicacao {
@@ -81,7 +81,7 @@ public class OperadorMultiplicacao {
 
 <h2> Operador de divisão </h2>
 
-Como o nome já diz, é um operador que realiza uma divisão, ele pode ser atribuido dentro de variáveis ou realizando subtrações de duas variáveis, no exemplo abaixo fará mais sentido.
+Como o nome já diz, é um operador que realiza uma divisão, ele pode ser atribuído dentro de variáveis ou realizando subtrações de duas variáveis, no exemplo abaixo fará mais sentido.
 
 ```java
 public class OperadorDivisao {
@@ -132,7 +132,7 @@ public class OperadorMod {
 ```
 
 <h2> Incremento e Decremento </h2>
-Esses operadores são a forma reduzida de fazer uma variável incrementar em 1 e decrementar em 1. São muito utilizados e importantes de se entender como eles funcionam.
+Estes operadores são a forma reduzida de fazer uma variável incrementar em 1 e decrementar em 1. São muito utilizados e importantes de se entender como eles funcionam.
 
 ```java
 public class IncrementoDecremento {
@@ -157,4 +157,4 @@ public class IncrementoDecremento {
 }
 ```
 
-**Obs**.: Operações entre parenteses seram resolvidas primeiro, e depois de multiplicação, divisão e módulo.
+**Obs**.: Operações entre parênteses serão resolvidas primeiro, depois  multiplicação, divisão e módulo.
