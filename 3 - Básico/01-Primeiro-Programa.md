@@ -35,7 +35,7 @@ public class Hello {
 }
 ```
 
-O *public* também é para dizer que qualquer um pode acessar, o *static* são métodos da própria classe, *void* quer dizer que não retorna nada (explicarei melhor futuramente) e *main* quer dizer que é a classe principal, ela é a única função necessária para que o compilador identifique aonde irá iniciar o arquivo.
+O *public* também é para dizer que qualquer um pode acessar, o *static* é para dizer que o membro pode ser acessado sem a necessidade de instanciar a classe, *void* quer dizer que não retorna nada (explicarei melhor futuramente) e *main* quer dizer que é a classe principal, ela é a única função necessária para que o compilador identifique aonde irá iniciar o arquivo.
 
 Continuando:
 
