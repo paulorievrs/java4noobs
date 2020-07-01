@@ -10,10 +10,10 @@ Os atributos são basicamente as variáveis que a classe vai ter, por exemplo, u
 
 <h2>Construtores</h2>
 
-Os construtores são para quando você instaciar um objeto da classe, como por exemplo, o objeto pessoa, ele já pode setar automático alguns valores que você quiser dos atributos.
+Os construtores são para quando você instanciar um objeto da classe, como por exemplo, o objeto pessoa, ele já pode definir automaticamente alguns valores que você quiser dos atributos.
 
 <h2>Métodos</h2>
 Os métodos são as funções que a classe vai ter, como por exemplo a classe pessoa pode ter uma função de aumentar a sua idade a cada ano que passa, ou um metodo que altera seu endereço.
 
 <h2>Encapsulamento</h2>
-Todos os atributos de uma classe devem ser somente serem usados dentro dela, portanto, cria-se um encapsulamento privado ao declará-los, e são criadas funções chamadas de get e set, para pegar e alterar esses atributos.
+Todos os atributos de uma classe devem ser usados somente dentro dela, portanto, cria-se um encapsulamento privado ao declará-los, e são criadas funções chamadas de get e set, para pegar e alterar esses atributos.
