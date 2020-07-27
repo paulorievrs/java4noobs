@@ -40,7 +40,7 @@
 9. 📝 [Exercício 1](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/09-Exercicio1.md)
 10. 🔄 [Estruturas de Repetição](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/10-EstruturasDeRepeticao.md)
 11. 🔄 [Comandos Break e Continue](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/11-Break-Continue.md)
-12. 🏃‍♂ [Funções / Metodos](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/12-Funcoes-Metodos.md)
+12. 🏃‍♂ [Funções / Métodos](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/12-Funcoes-Metodos.md)
 13. 🔠 [Arrays](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/13-Arrays.md)
 14. 📝 [Exercício 2](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/14-Exercico2.md)
 15. 🔠 [Arrays Multidimensionais/Matrizes](https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/15-Matrizes.md)
@@ -71,7 +71,7 @@ ou simplesmente, crie uma **ISSUE**
 
 ## Autores
 
-- **Paulo Rievrs Olviera** - [LinkedIn](https://www.linkedin.com/in/paulo-rievrs/)
+- **Paulo Rievrs Oliveira** - [LinkedIn](https://www.linkedin.com/in/paulo-rievrs/)
 
 - Auxílio do repositório do **Hellowluan** - [Github](https://github.com/hellowluan)
 

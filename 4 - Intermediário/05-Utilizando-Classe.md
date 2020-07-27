@@ -1,6 +1,6 @@
 <h1>Utilizando a classe criada</h1>
 
-No módulo anterior foi criada uma classe explicando tudo, irei recolocar ela aqui, e irei explicar como utilizar.
+No módulo anterior foi criada uma classe explicando tudo, ela será referenciada novamente aqui, e será explicado como utilizá-la.
 
 Ao instanciar uma classe, você cria uma variável que é um objeto, que pode ser declarada como se estivesse criando um variável normal.
 
@@ -36,7 +36,7 @@ class Pessoa { //não é necessário dizer que ela é publica se ela não armaze
 
 
     public void setNome(String nome) {
-        //chamando esse método com o objeto Pessoa, passando o nome como parametro, atribui o nome no objeto.
+        //chamando esse método com o objeto Pessoa, passando o nome como parâmetro, atribui o nome no objeto.
 
         this.nome = nome; //o this significa que está utilizando o objeto que chamou o método.
     }
@@ -56,7 +56,7 @@ class Pessoa { //não é necessário dizer que ela é publica se ela não armaze
     }
 
     public void setCpf(String cpf) {
-        //chamando esse método com o objeto Pessoa, passando o cpf como parametro, atribui o cpf no objeto.
+        //chamando esse método com o objeto Pessoa, passando o cpf como parâmetro, atribui o cpf no objeto.
 
         this.cpf = cpf; //o this significa que está utilizando o objeto que chamou o método.
     }
