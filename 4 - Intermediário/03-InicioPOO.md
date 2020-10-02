@@ -8,7 +8,7 @@ Para ter uma programação orientada ao objeto é necessário de uma classe para
 
 Os atributos são basicamente as variáveis que a classe vai ter, por exemplo, uma classe pessoa tem: nome, idade, cpf, endereço.
 
-Dá pensar nos atributos como informações que só a classe (e os objetos criados a paritr dela) tem, então a classe também tem que definir se essas informações serão acessiveis pra todos ou somente para ela. Pra isso, na declaração da variavel de atributo, dá pra definir se vai ser publico (public) ou privado (private).
+Dá pensar nos atributos como informações que só a classe (e os objetos criados a partir dela) possui, então a classe também tem que definir se essas informações serão acessiveis pra todos ou somente para ela. Pra isso, na declaração da variavel de atributo, dá pra definir se a variavel vai ser pública (public) ou privada (private).
 
 <h2>Construtores</h2>
 
