@@ -47,13 +47,18 @@ Os prints, mostram respectivamente toda a String **s** como minusculas e toda St
 
 Alguns métodos não são da classe String mas também a manipula.
 
-<h2>Integer.parseInt</h2>
+<h2>Integer.parseInt, Double.parseDouble e Float.parseFloat</h2>
 
-O tipo primitivo int tem uma classe também, mas, ele é criado de outra forma. Para passar uma String só de números para um valor inteiro deve-se utilizar esse método.
+Os tipos primitivo `int`, `double` e `float` também possuem um classes , com alguns métodos úteis. Mas, essas classes possuem características diferentes dos tipos primitivos.  
+O métodos `parseInt`, `parseDouble`, `parseFloat` convertem uma `String` de números válida para o tipo requisitado.
 
 ```java
-String s = "111";
-int num = Integer.parseInt(s);
+String n_1 = "111";
+String n_2 = "1.7";
+String n_3 = "5.1";
+int num_1 = Integer.parseInt(n_1);
+double num_2 = Double.parseDouble(n_2);
+float num_3 = Float.parseFloat(n_3);
 ```
 
-Para utilizar esse método não é necessário criar um objeto inteiro, é só utilizar Integer que é o nome da classe, e instanciar o método passando como parametro a String que quer transformar.
+Para utilizar esse método não é necessário criar um objeto `Integer` pois são `static`. O parâmetro do método é uma `String`, e se ela não for válida é lançado a exceção `NumberFormatException`.
