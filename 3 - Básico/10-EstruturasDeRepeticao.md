@@ -13,7 +13,7 @@ public class EstruturaDoWhile {
 
             System.out.println(contador); //mostra o contador até atingir a condição de parada.
 
-            cont++; //incrementando para ir chegando perto da condição de parada.
+            contador++; //incrementando para ir chegando perto da condição de parada.
 
         } while (contador < 10); //leia-se: "faça enquanto o contador seja menor do que 10, quando ele chegar a 10 ele pare". 
         
@@ -36,7 +36,7 @@ public class EstruturaWhile {
 
             System.out.println(contador); //mostra o contador até atingir a condição de parada.
 
-            cont++; //incrementando para alcançar a condição de parada.
+            contador++; //incrementando para alcançar a condição de parada.
 
 
         } //leia-se: "Enquanto o contador seja menor do que 10, quando ele chegar a 10 ele pare". 
