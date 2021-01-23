@@ -50,7 +50,7 @@
 ### Módulo Intermédiario
 
 1. 👁️‍🗨️ [Métodos Utéis de Java](/4%20-%20Intermedi%C3%A1rio/01-MetodosUteis.md)
-2. 📂 [Leitura e Criação de Arquivos](/4%20-%20Intermedi%C3%A1rio/02-LeituraDeArquivo.md)
+2. 📂 [Leitura e Escrita de Arquivos](/4%20-%20Intermedi%C3%A1rio/02-LeituraDeArquivo.md)
 3. 🤖 [Início de Programação Orientada ao Objeto](/4%20-%20Intermedi%C3%A1rio/03-InicioPOO.md)
 4. 👨‍🏫 [Minha Primeira Classe](/4%20-%20Intermedi%C3%A1rio/04-PrimeiraClasse.md)
 5. 👨‍🏫 [Utilizando a Classe](/4%20-%20Intermedi%C3%A1rio/05-Utilizando-Classe.md)
