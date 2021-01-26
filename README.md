@@ -47,7 +47,7 @@
 16. 🏃‍♂ [Diferenças de Métodos static e non-static](/3%20-%20B%C3%A1sico/16-Diferencas-Static-nonStatic.md)
 17. ✋ [Exceções](/3%20-%20B%C3%A1sico/17-Excecoes.md)
 
-### Módulo Intermédiario
+### Módulo Intermediário
 
 1. 👁️‍🗨️ [Métodos Utéis de Java](/4%20-%20Intermedi%C3%A1rio/01-MetodosUteis.md)
 2. 📂 [Leitura e Criação de Arquivos](/4%20-%20Intermedi%C3%A1rio/02-LeituraDeArquivo.md)
@@ -55,6 +55,11 @@
 4. 👨‍🏫 [Minha Primeira Classe](/4%20-%20Intermedi%C3%A1rio/04-PrimeiraClasse.md)
 5. 👨‍🏫 [Utilizando a Classe](/4%20-%20Intermedi%C3%A1rio/05-Utilizando-Classe.md)
 
+### Extras
+
+1. [Boas Práticas](/Extras/BoasPraticas.md)
+2. [Livros](/Extras/Livros.md)
+3. [Requisições](/Extras/Requisicoes.md)
 
 ## Como Contribuir
 
