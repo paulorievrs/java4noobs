@@ -16,11 +16,9 @@ Para solucionar alguns desses problemas, podemos agrupar nossos dados (clientes)
 
 Como pode ver na imagem, dentro da linguagem Java a estrutura List é uma interface, a qual estende Collection, que por sua vez estende Iterable. Não vamos nos aprofundar nos últimos dois, porém Collection refere-se a uma coleção de objetos representados como uma entidade única, e Iterable algo que pode ser iterável. Quando realizamos um laço For estamos fazendo iterações, ou seja, passando por um objeto mais de uma vez, dessa forma, natural que uma Coleção seja iterável e uma lista também seja uma coleção.
 
-Porém, você deve estar se perguntando agora: "Qual é a diferença então entre um List e um Array?" Pois bem, podemos destacar duas diferenças principais: Quando criamos um array em Java, devemos declarar também o tamanho desse Array, ou por padrão o compilador irá pré-alocar um espaço de memória para esse Array, mas esse tamanho é fixo e não pode ser expandido, então se precisarmos aumentar esse tamanho, precisamos criar um novo Array. Já em uma List, trabalhamos com um Array dinâmico, o Array criado contém a nossa coleção, porém são adicionados mais alguns espaços de memória, permitindo que sejam adicionados novos elementos sem que necessitamos criar um novo Array na memória.
+Porém, você deve estar se perguntando agora: "Qual é a diferença então entre um List e um Array?" Pois bem, podemos destacar uma diferença principal: Quando criamos um array em Java, devemos declarar também o tamanho desse Array, ou por padrão o compilador irá pré-alocar um espaço de memória para esse Array, mas esse tamanho é fixo e não pode ser expandido, então se precisarmos aumentar esse tamanho, precisamos criar um novo Array. Já em uma List, trabalhamos com um Array dinâmico, o Array criado contém a nossa coleção, porém são adicionados mais alguns espaços de memória, permitindo que sejam adicionados novos elementos sem que necessitamos criar um novo Array na memória.
 
 Além disso, quando usamos uma List, caso a nossa List passe esse tamanho pré-estabelecido, o próprio compilador se ocupa de criar uma nova List com um tamanho maior, comportar a antiga e então deletar a antiga. Já usando o Array, necessitamos criar um novo e deletar o antigo manualmente, caso contrário o espaço continuará alocado na memória.
-
-O segundo motivo é que Arrays puros só trabalham com tipos primitivos, o que limita bastante quando falamos de POO, nesse modo, as Lists colaboram muito ao permitir que usemos Objetos como valores de uma Collection.
 
 ```java
 // Vamos inicializar um Array de 5 posições
@@ -58,7 +56,7 @@ Já na LinkedList, ela implementa a interface List, porém também implementa um
 
 Como é possível ver na imagem, na ArrayList os elementos não estão ligados, mas sim indexados, sabemos quem ocupa cada posição pois temos ponteiros no primeiro(posição 0) e último(posição length-1), entretanto os elementos por si só não sabem quem é o antecessor ou o próximo, o que dificulta na hora de inserir algo no meio ou nas pontas, obrigando-os a criar novos Arrays ou manipulá-los para tal fim.
 
-No caso de LinkedList, o algoritmo usado utiliza o conceito de HashTable e Tabela de Dispersão, os quais não serão abordados nesse tópico porém são o que garantem que LinkedList tenham uma performance maior do que uma ArrayList. Somado a isso, temos a questão dos elementos de uma LinkedList conhecerem-se entre si, desse modo apontam quem é o proximo e quem é o anterior, se há um próximo ou não. Então, torna-se mais fácil adicionar elementos no fim, começo e meio, porém torna-se muito difícil saber em qual posiçaõ cada elemento está, pois esse tipo de lista não possui índice.
+No caso de LinkedList, o algoritmo usado utiliza o conceito de HashTable e Tabela de Dispersão, os quais não serão abordados nesse tópico porém são o que garantem que LinkedList tenham uma performance maior do que uma ArrayList. Somado a isso, temos a questão dos elementos de uma LinkedList conhecerem-se entre si, desse modo apontam quem é o proximo e quem é o anterior, se há um próximo ou não. Então, torna-se mais fácil adicionar elementos no fim, começo e meio, porém torna-se muito difícil saber em qual posiçaõ cada elemento está, pois essa lista não possui índice.
 
 ```java
 List<String> arrayList = new ArrayList<String>();

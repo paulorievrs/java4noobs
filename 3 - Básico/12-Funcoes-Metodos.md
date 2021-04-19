@@ -78,7 +78,7 @@ List<String> arrayList = new ArrayList<String>();
 
 arrayList.foreach(s -> {
     String novaStringSemEspaco = s.trim();
-    System.out.printlnnovaStringSemEspaco;
+    System.out.println(novaStringSemEspaco;
 })
 
 arrayList.foreach(System.out::println)
