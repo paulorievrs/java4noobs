@@ -56,7 +56,7 @@ Já na LinkedList, ela implementa a interface List, porém também implementa um
 
 Como é possível ver na imagem, na ArrayList os elementos não estão ligados, mas sim indexados, sabemos quem ocupa cada posição pois temos ponteiros no primeiro(posição 0) e último(posição length-1), entretanto os elementos por si só não sabem quem é o antecessor ou o próximo, o que dificulta na hora de inserir algo no meio ou nas pontas, obrigando-os a criar novos Arrays ou manipulá-los para tal fim.
 
-No caso de LinkedList, o algoritmo usado utiliza o conceito de HashTable e Tabela de Dispersão, os quais não serão abordados nesse tópico porém são o que garantem que LinkedList tenham uma performance maior do que uma ArrayList. Somado a isso, temos a questão dos elementos de uma LinkedList conhecerem-se entre si, desse modo apontam quem é o proximo e quem é o anterior, se há um próximo ou não. Então, torna-se mais fácil adicionar elementos no fim, começo e meio, porém torna-se muito difícil saber em qual posiçaõ cada elemento está, pois essa lista não possui índice.
+No caso de LinkedList, o algoritmo usado utiliza o conceito de HashTable e Tabela de Dispersão, os quais não serão abordados nesse tópico porém são o que garantem que LinkedList tenham uma performance maior do que uma ArrayList. Somado a isso, temos a questão dos elementos de uma LinkedList conhecerem-se entre si, desse modo apontam quem é o proximo e quem é o anterior, se há um próximo ou não. Então, torna-se mais fácil adicionar elementos no fim, começo e meio, porém torna-se muito difícil saber em qual posição cada elemento está, pois essa lista não possui índice.
 
 ```java
 List<String> arrayList = new ArrayList<String>();
