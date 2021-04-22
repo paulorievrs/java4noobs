@@ -19,7 +19,6 @@
 1. [Introdução](/1%20-%20Introdu%C3%A7%C3%A3o/1.1-Introdu%C3%A7%C3%A3o.md)
 2. [Problemas](/1%20-%20Introdu%C3%A7%C3%A3o/1.2-Problemas.md)
 
-
 ### Configuração de Ambiente
 
 1. 💻 [Ambiente Linux](/2%20-%20Ambiente/2.1-Ambiente-Linux.md)
@@ -54,6 +53,8 @@
 3. 🤖 [Início de Programação Orientada ao Objeto](/4%20-%20Intermedi%C3%A1rio/03-InicioPOO.md)
 4. 👨‍🏫 [Minha Primeira Classe](/4%20-%20Intermedi%C3%A1rio/04-PrimeiraClasse.md)
 5. 👨‍🏫 [Utilizando a Classe](/4%20-%20Intermedi%C3%A1rio/05-Utilizando-Classe.md)
+6. 🔠 [Collections e Stream API](/4%20-%20Intermedi%C3%A1rio/06-Collections-e-Stream.md)
+7. 🔠 [LinkedList vs ArrayList](/4%20-%20Intermedi%C3%A1rio/07-LinkedList-vs-ArrayList.md)
 
 ### Extras
 

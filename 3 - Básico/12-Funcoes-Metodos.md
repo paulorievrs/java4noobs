@@ -8,12 +8,14 @@ Assim como existe a tipagem de variáveis, é da mesma maneira que ocorre com um
 A sintaxe de uma função é muito parecida com a main, você vai iniciar com **public**, depois **static** e agora vem o tipo de função, que são os mesmo tipos de variáveis (int, float, double, etc...), depois disso vem obrigatóriamente os parênteses, que dentro deles você pode receber variáveis durante a chamada da função, e dentro da função, se ela nao for do tipo **void**, deve conter algum retorno do mesmo tipo dela.
 
 Exemplo básico:
+
 ```java
 public static int funcao(int a) {
     //... corpo da função ...
     return a;
 }
 ```
+
 Exemplo elaborado:
 
 ```java
@@ -42,6 +44,44 @@ public class InicioFuncoes {
 }
 ```
 
-O uso de uma função deve ser tão natural quando o uso de uma variável, assim como tudo ensinado, você deve implementar, fazer seus testes, errar, aprender e crescer fazendo isso. É um salto bem grande aprender esse tipo de coisa pelo fato de que seu código agora, ao invés de ficar amontoado na Main, ele pode ser modularizado. 
+O uso de uma função deve ser tão natural quando o uso de uma variável, assim como tudo ensinado, você deve implementar, fazer seus testes, errar, aprender e crescer fazendo isso. É um salto bem grande aprender esse tipo de coisa pelo fato de que seu código agora, ao invés de ficar amontoado na Main, ele pode ser modularizado.
 
 Além disso, é possível criar funções que podem ser reutilizadas, como a da soma, ou você pode criar uma função que lê dados digitados pelo usuário e retorna eles, fica mais fácil do que chamar o Scanner a todo momento.
+
+<h1>Expressões Lambda</h1>
+
+A versão 8 do Java é muito conhecida por trazer novos recursos que facilitaram bastante a vida do desenvolvedor Java no dia a dia, API Stream, LocalDateTime, e Lambda Expressions. Essas foram algumas das melhorias trazidas pela Oracle para a linguagem e o último em especial foi um grande avanço, já que muitas linguagens já contavam com esse recurso.
+
+Podemos definir expressões lambda como uma forma de reduzir uma função em uma expressão, para tornar sua leitura mais fácil e expressão menos verbosa. Podemos observar no exemplo a seguir
+
+```java
+//usando da forma antiga.
+List<String> arrayList = new ArrayList<String>();
+
+arrayList.foreach(function(String e) {
+  System.out.println(e);
+})
+
+// com as expressões lambdas.
+
+arrayList.foreach(string -> System.out.println(string));
+
+//ou de uma forma mais reduzida ainda.
+arrayList.foreach(s -> System.out.println(s))
+
+```
+
+Ainda nesse tópico, há uma forma mais enxuta de escrever uma expressão lambda, porém devemos entender que quando usamos a seta "->" para declarar uma expressão lambda estamos informando que a expressão a direita da seta espera receber um ou mais parâmetros, além de poder manipulá-los antes de retornar um resultado, já quando usamos os dois pontos seguidos "::" não podemos usar mais de um parâmetro e nem manipulá-los.
+
+```java
+List<String> arrayList = new ArrayList<String>();
+
+arrayList.foreach(s -> {
+    String novaStringSemEspaco = s.trim();
+    System.out.println(novaStringSemEspaco);
+})
+
+arrayList.foreach(System.out::println)
+/* Repare no exemplo acima que, como declaramos o tipo de cada elemento no array ( String ), se fizemos dessa forma,
+o compilador pode inferir o uso do elemento como parâmetro do método println, o qual faz parte do pacote System.out, presente no Java lib */
+```
