@@ -23,3 +23,5 @@ Essas funções, assim como os atributos, podem ser públicos para serem acessad
 
 <h2>Encapsulamento</h2>
 Todos os atributos de uma classe devem ser usados somente dentro dela, portanto, cria-se um encapsulamento privado ao declará-los, e são criadas funções chamadas de get e set, para pegar e alterar esses atributos.
+
+[Próximo](./04-PrimeiraClasse.md) - Primeira classe

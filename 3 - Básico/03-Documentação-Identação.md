@@ -48,3 +48,5 @@ public class Indentacao2 {
 }
 ```
 Aos olhos humanos fica mais fácil de se entender e enxergar. Para o compilador em alguns casos não irá fazer diferença, mas até para você que está programando fica melhor de se organizar.
+
+[Próximo](./04-DeclaracaoDeVariaveis.md) - Declaração de Variáveis

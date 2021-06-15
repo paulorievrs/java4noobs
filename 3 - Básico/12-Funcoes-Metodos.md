@@ -85,3 +85,5 @@ arrayList.foreach(System.out::println)
 /* Repare no exemplo acima que, como declaramos o tipo de cada elemento no array ( String ), se fizemos dessa forma,
 o compilador pode inferir o uso do elemento como parâmetro do método println, o qual faz parte do pacote System.out, presente no Java lib */
 ```
+
+[Próximo](./13-Arrays.md) - Arrays

@@ -38,3 +38,5 @@ public class Leitura {
 }
 ```
 **Obs**.: Após digitar um dado aperte enter para prosseguir com a continuação do programa.
+
+[Próximo](./07-OperadoresLogicos-e-Comparacao.md) - Operadores lógicos

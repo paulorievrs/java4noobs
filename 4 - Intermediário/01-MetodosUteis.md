@@ -62,3 +62,5 @@ float num_3 = Float.parseFloat(n_3);
 ```
 
 Para utilizar esse método não é necessário criar um objeto `Integer` pois são `static`. O parâmetro do método é uma `String`, e se ela não for válida é lançado a exceção `NumberFormatException`.
+
+[Próximo](./02-LeituraDeArquivo.md) - Leitura de arquivo

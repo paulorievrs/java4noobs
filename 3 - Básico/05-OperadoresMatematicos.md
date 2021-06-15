@@ -158,3 +158,5 @@ public class IncrementoDecremento {
 ```
 
 **Obs**.: Operações entre parênteses serão resolvidas primeiro, depois  multiplicação, divisão e módulo.
+
+[Próximo](./06-LendoDadosDaEntradaPadrao.md) - Lendo dados de entrada padrão

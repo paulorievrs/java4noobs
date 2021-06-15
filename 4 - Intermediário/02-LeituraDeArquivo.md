@@ -98,3 +98,5 @@ String linha = scanner.nextLine();
 escritor.append(linha + '\n');
 escritor.close();
 ```
+
+[Próximo](./03-InicioPOO.md) - Início de Programação Orientada a Objetos
