@@ -106,3 +106,5 @@ public class UtilizandoClasse {
     }
 }
 ```
+
+[Próximo](./06-Collections-e-Stream.md) - Collections e Stream API

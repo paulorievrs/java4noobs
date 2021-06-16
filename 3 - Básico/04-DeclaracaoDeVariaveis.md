@@ -145,3 +145,5 @@ Ou também utilizar acentos, caracteres especiais e numeros no inicio.
 ```
 
 É uma ótima pratica colocar nomes que fazem sentido para as variáveis, no exemplo de classe VariáveisJuntas, foram utilizados nomes com semântica, nos demais, foi para exemplo. Siga a ideia dele.
+
+[Próximo](./05-OperadoresMatematicos.md) - Operadores matemáticos

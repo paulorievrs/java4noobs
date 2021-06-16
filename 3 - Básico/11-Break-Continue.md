@@ -45,3 +45,5 @@ public class Continue {
 Teria que ficar assim:
 <img src="../img/Continue.jpeg">
 Observe que o valor 5 não foi exibido. Isso ocorreu pois o Continue foi utilizado, portanto, todo o código que está abaixo do continue foi ignorado. Quando atingiu 6, a condição do if não foi satisfeita e a condição for seguiu até o fim.
+
+[Próximo](./12-Funcoes-Metodos.md) - Funções e métodos

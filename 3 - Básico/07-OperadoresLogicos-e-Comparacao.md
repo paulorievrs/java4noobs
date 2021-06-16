@@ -18,4 +18,4 @@ java-basico" target="_blank"> repositório do hellowluan.
 
 Esses Operadores são como na matemática, e na programação é possível comparar valores também, e é onde os operadores lógicos entram nessa brincadeira.
 
-
+[Próximo](./08-EstruturasCondicionais.md) Estrutuas condicionais

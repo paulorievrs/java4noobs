@@ -70,3 +70,5 @@ class Pessoa { //não é necessário dizer que ela é publica se ela não armaze
 
 }
 ```
+
+[Próximo](./05-Utilizando-Classe.md) - Utilizando classe
