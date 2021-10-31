@@ -81,3 +81,5 @@ Observe abaixo a diferença do tempo de execução entre as duas classes.
 ![Tempo de execução](../img/teste-velocidade-arraylist-vs-linkedlist.png)
 
 Portanto, cabe a nós, programadores, decidirmos qual classe usar para a melhor resolução do nosso problema.
+
+[Próximo](./08-Listas-imutaveis.md) - Listas imutaveis
