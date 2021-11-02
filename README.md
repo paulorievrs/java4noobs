@@ -55,6 +55,7 @@
 5. 👨‍🏫 [Utilizando a Classe](/4%20-%20Intermedi%C3%A1rio/05-Utilizando-Classe.md)
 6. 🔠 [Collections e Stream API](/4%20-%20Intermedi%C3%A1rio/06-Collections-e-Stream.md)
 7. 🔠 [LinkedList vs ArrayList](/4%20-%20Intermedi%C3%A1rio/07-LinkedList-vs-ArrayList.md)
+8. 🔠 [Listas Imutáveis](/4%20-%20Intermedi%C3%A1rio/08-Listas-imutaveis.md)
 
 ### Extras
 
