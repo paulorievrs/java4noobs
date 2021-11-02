@@ -74,7 +74,6 @@ public class MinhaClasse {
 Agora temos o encapsulamento respeitado, ninguém consegue realizar operações nesta lista sem passar por nossas regras.
 
 ```java
-
 public class App {
     public static void main(String[] args) {
         MinhaClasse minhaClasse = new MinhaClasse();
@@ -85,7 +84,7 @@ public class App {
 
 # Lista imutáveis por padrão
 
-É possivel criar uma lista imutável utilizando os métodos da ```Collections.unmodifiableList(lista)```, porém é meio verboso este tipo de método, precisamos da instância da lista e depois passa-la como argumento, muito trabalho, então a partir de versões mais recentes do Java - acima da 8 - temos os métodos que fácilitam este trabalho para nós, na interface ```List```, temos o método default ```of``` e também no Java 8 temos o método ```Arrays.asList(valores)```, que tem o funcionamento parecido, porém não tão intuitivo e ela também pode ser modificada - com algumas ressalvas - segue alguns exemplos.
+É possivel criar uma lista imutável utilizando os métodos da ```Collections.unmodifiableList(lista)```, porém é meio verboso este tipo de método, precisamos da instância da lista e depois passa-la como argumento, muito trabalho, então a partir de versões mais recentes do Java - acima da 8 - temos os métodos que fácilitam este trabalho para nós, na interface [List](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html), temos o método default [of](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html#of(E...)) e também no Java 8 temos o método [Arrays.asList(valores)](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Arrays.html), que tem o funcionamento parecido, porém não tão intuitivo e ela também pode ser modificada - com algumas ressalvas - segue alguns exemplos.
 
 
 ### Arrays
