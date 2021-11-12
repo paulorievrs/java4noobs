@@ -31,7 +31,7 @@ public class App {
 }
 ```
 
-A instanciação do HashSet é simples, basicamente temos o padrão `Set\<Tipo> nome = new HashSet<>();` com isso já temos a instancia para trabalharmos.
+A instanciação do HashSet é simples, basicamente temos o padrão `Set<Tipo> nome = new HashSet<>();` com isso já temos a instancia para trabalharmos.
 
 Para adicionarmos itens no nosso Set utilizamos o método `add`, este método irá nos retornar `true` caso consiga inserir o item, e `false` quando não conseguir, pois o item já existe no Set.
 
@@ -67,7 +67,7 @@ Podemos limpar um Set inteiro com o método `clear`, ou ter o seu tamanho com o 
 ```java
 public class App {
     public static void main(String[] args) {
-         Set<Integer> intSet = new HashSet<>();
+        Set<Integer> intSet = new HashSet<>();
         intSet.add(10)
         intSet.add(20);
         if (intSet.isEmpty()) {
@@ -83,8 +83,8 @@ public class App {
 
 ### <center> TreeSet</center>
 
-O modo de trabalho com o TreeSet é praticamente o mesmo dos já mostrados aqui, com a grande diferença desta implementação utilizar o método [compareTo](https://www.w3schools.com/java/ref_string_compareto.asp) ou [compare](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html), não iremos discutir a implementação destes métodos, pois não é o foco deste cápitulo, a utilização destes métodos é para garantir a integridade da arvore por trás de sua implementação.
+O modo de trabalho com o TreeSet é praticamente o mesmo dos já mostrados aqui, com a grande diferença desta implementação utilizar o método [compareTo](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Comparable.html) ou [compare](https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html) ou invés do `hashCode` para realizar as inserções, remoções e contais, não iremos discutir a implementação destes métodos, pois não é o foco deste cápitulo, a utilização destes métodos é para garantir a integridade da arvore por trás de sua implementação.
 
 ### Imutabilidade
 
-Assim como já discutido no [capítulo anterior](./08-Listas-imutaveis.md) os Set's também tem suas versões imutáveis, sendo elas utilizando o `Collections.unmodifiableSet` ou `Set.of`, o comportamento é parecido com o das listas imutáveis, porém com as peculiaridades do Set.
+Assim como já discutido no [capítulo anterior](./08-Listas-imutaveis.md) os Set's também tem suas versões imutáveis, sendo elas utilizando o `Collections.unmodifiableSet` ou `Set.of`, este método em especifico acima da versão 8, o comportamento é parecido com o das listas imutáveis, porém com as peculiaridades do Set.
