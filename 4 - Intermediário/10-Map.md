@@ -1,19 +1,19 @@
 # <center> Map </center>
 
-A ultima coleção que iremos falar é o [Map](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html), é uma coleção baseada em `chave` e `valor`. No capitulo sobre os [Sets](./09-Sets.md) uma das implementações de Map foi mencionada, sendo ela o [HashMap](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html), neste capítulo iremos falar sobre três implementações de Map, assim como fizemos com os `Sets`, sendo elas:
+A última coleção que iremos falar é o [Map](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html), é uma coleção baseada em `chave` e `valor`. No capítulo sobre os [Sets](./09-Sets.md) uma das implementações de Map foi mencionada, sendo ela o [HashMap](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html), neste capítulo iremos falar sobre três implementações de Map, assim como fizemos com os `Sets`, sendo elas:
 
 - [HashMap](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html).
     -  Uma implementação baseada em [HashTable](https://en.wikibooks.org/wiki/Data_Structures/Hash_Tables).
 - [LinkedHashMap](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/LinkedHashMap.html).
     - Uma implementação que se utiliza uma `HashTable` e [Linked List](07-LinkedList-vs-ArrayList.md).
 - [TreeMap](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/TreeMap.html).
-    - Uma implementação baseada em [Red Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree), necessario a implementação da interface [Comparator](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Comparator.html), ela mantem a ordenação de acordo com a estrutura de arvore. Temos um exemplo de implementação [aqui](../Extras/implementacoes/ClasseComparator.java).
+    - Uma implementação baseada em [Red Black Tree](https://en.wikipedia.org/wiki/Red%E2%80%93black_tree), necessario a implementação da interface [Comparator](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Comparator.html), ela mantém a ordenação de acordo com a estrutura de árvore. Temos um exemplo de implementação [aqui](../Extras/implementacoes/ClasseComparator.java).
 
-Todas as implementações tem usos parecidos, por este motivo iremos demonstrar com apenas uma de suas implementações. Claro todas tem as suas ressalvas, tem prós e contras, vem do desenvolvedor saber o local correto de sua utilização.
+Todas as implementações têm usos parecidos, por este motivo iremos demonstrar com apenas uma de suas implementações. Claro todas tem as suas ressalvas, tem prós e contras, vem do desenvolvedor saber o local correto de sua utilização.
 
 ## <center>Trabalhando com o Map</center>
 
-Para criarmos as instancias de Map seguimos o seguinte padrão: `Map<Chave, Valor> nome = new Implementacao<>()`:
+Para criarmos as instâncias de Map seguimos o seguinte padrão: `Map<Chave, Valor> nome = new Implementacao<>()`:
 
 ```java
 public class App {
@@ -36,7 +36,7 @@ public class App {
 }
 ```
 
-Caso o valor já exista no `Map` ele é substituido pelo novo valor:
+Caso o valor já exista no `Map` ele é substituído pelo novo valor:
 
 ```java
 public class App {
@@ -48,7 +48,7 @@ public class App {
 }
 ```
 
-Para remover algum item do `Map` temos o método [remove](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#remove(java.lang.Object)) onde temos uma sobrecarga bem interessante na qual só é feita a remoção da chave caso o valor seja igual ao passado.
+Para remover algum ‘item’ do `Map` temos o método [remove](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#remove(java.lang.Object)) onde temos uma sobrecarga bem interessante onde só é feita a remoção da chave caso o valor seja igual ao passado.
 
 ```java
 public class App {
@@ -62,7 +62,7 @@ public class App {
 }
 ```
 
-Também recuperar o valor de uma chave em um `Map` utilizando o método [get](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#get(java.lang.Object)) ou se quisermos saber se a chave existe antes de buscar, utilizamos o método [containsKey](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#containsKey(java.lang.Object)), caso o valor não exista o método `get` ira retornar o valor `null`, e o método `containsKey` ira retornar false.
+Também podemos recuperar o valor de uma chave em um `Map` utilizando o método [get](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#get(java.lang.Object)) ou se quisermos saber se a chave existe antes de buscar, utilizamos o método [containsKey](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#containsKey(java.lang.Object)), caso o valor não exista o método `get` ira retornar o valor `null`, e o método `containsKey` ira retornar false.
 
 ```java
 public class App {
@@ -82,7 +82,7 @@ public class App {
 }
 ```
 
-Podemos também iterar um `Map` por meio de um [Set](./09-Sets.md) de chaves utilizando o método [keySet](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#keySet()), onde nos é retornado um `Set` com todas as chaves inseridas neste `Map`.
+Podemos também iterar um `Map` através de um [Set](./09-Sets.md) de chaves utilizando o método [keySet](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#keySet()), onde nos é retornado um `Set` com todas as chaves inseridas neste `Map`.
 
 ```java
 public class App {
@@ -118,7 +118,7 @@ Temos outros métodos como [isEmpty](https://docs.oracle.com/en/java/javase/17/d
 
 ### <center>Imutabilidade</center>
 
-Assim como já discutido no [capítulo de Listas imutaveis](./08-Listas-imutaveis.md) os Map's também tem suas versões imutáveis, sendo elas utilizando o `Collections.unmodifiableMap` no qual não permite o uso do método `put` ou `Map.of`, este método em especifico acima da versão 8, o comportamento é parecido com o das listas imutáveis, porém com o modo de uso um pouco diferente.
+Assim como já discutido no [capítulo de Listas imutáveis](./08-Listas-imutaveis.md) os Map's também tem suas versões imutáveis, sendo elas utilizando o `Collections.unmodifiableMap` onde não permite o uso do método `put` ou [replace](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html#replace(K,V)) ou `Map.of`, este método em específico acima da versão 8, o comportamento é parecido com o das listas imutáveis, porém com o modo de uso um pouco diferente.
 
 ```java
 public class App {
