@@ -88,3 +88,5 @@ O modo de trabalho com o TreeSet é praticamente o mesmo dos já mostrados aqui,
 ### Imutabilidade
 
 Assim como já discutido no [capítulo anterior](./08-Listas-imutaveis.md) os Set's também tem suas versões imutáveis, sendo elas utilizando o `Collections.unmodifiableSet` ou `Set.of`, este método em especifico acima da versão 8, o comportamento é parecido com o das listas imutáveis, porém com as peculiaridades do Set.
+
+[Próximo](./10-Map.md) - Map

@@ -57,6 +57,7 @@
 7. 🔠 [LinkedList vs ArrayList](/4%20-%20Intermedi%C3%A1rio/07-LinkedList-vs-ArrayList.md)
 8. 🔠 [Listas Imutáveis](/4%20-%20Intermedi%C3%A1rio/08-Listas-imutaveis.md)
 9. 🔠 [Sets](/4%20-%20Intermedi%C3%A1rio/09-Sets.md)
+10. 🔠 [Map](/4%20-%20Intermedi%C3%A1rio/10-Map.md)
 
 ### Extras
 
