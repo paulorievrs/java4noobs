@@ -2,7 +2,7 @@
 
 Anteriormente vimos uma das Collections que implementam a interface [List](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html), porém List, não é a única coleção existente no Java, neste tópico iremos falar da Collection [Set](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Set.html), esta coleção tem uma peculiaridade em relação a listas comuns, ela não armazena valores repetidos, porém assim como List, o Set também é uma interface genérica.
 
-Temos algumas implementações implementações para esta `interface`, porém iremos falar das seguintes implementações:
+Temos algumas implementações para esta `interface`, porém iremos falar das seguintes implementações:
 
 - [HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html)
     - Esta implementação é a mais rápida dentre elas, ela armazena os valores em uma [Hash Table](https://en.wikipedia.org/wiki/Hash_table#:~:text=In%20computing%2C%20a%20hash%20table,desired%20value%20can%20be%20found.), esta implementação não garante a ordem dos elementos adicionados nela.
@@ -88,3 +88,5 @@ O modo de trabalho com o TreeSet é praticamente o mesmo dos já mostrados aqui,
 ### Imutabilidade
 
 Assim como já discutido no [capítulo anterior](./08-Listas-imutaveis.md) os Set's também tem suas versões imutáveis, sendo elas utilizando o `Collections.unmodifiableSet` ou `Set.of`, este método em especifico acima da versão 8, o comportamento é parecido com o das listas imutáveis, porém com as peculiaridades do Set.
+
+[Próximo](./10-Map.md) - Map
