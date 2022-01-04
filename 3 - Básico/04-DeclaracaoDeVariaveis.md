@@ -1,6 +1,7 @@
 <h1>Declaração de variáveis</h1>
 
-As variáveis são formas de armazenar algo na memória do computador, que, podem ser reutilizadas durante o código. Elas são de extrema importância e sua <a href="https://github.com/paulorievrs/java4noobs/blob/master/3%20-%20B%C3%A1sico/02-Tipos-De-Variaveis.md"> tipagem</a> também. 
+As variáveis são formas de armazenar algo na memória do computador, que, podem ser reutilizadas durante o código. Elas são de extrema importância e sua
+[tipagem](./02-Tipos-De-Dados.md) também.
 
 Quando se declara uma variável você coloca o tipo dela antes (int, float, double, string, char), o nome, que não pode ser um nome reservado da linguagem (como por exemplo os nomes dos tipos de variáveis), não pode conter números no início nem acentuações. Após isso coloca-se um "=" para dizer que o valor que vem a frente é atribuido à variável, leia-se "recebe";
 
@@ -14,9 +15,6 @@ Quando se declara uma variável você coloca o tipo dela antes (int, float, doub
 ```
 
 Os código abaixo demonstrarão a implementação de variáveis.
-
-
-
 
 ```java
 public class VariaveisInteiras {
@@ -49,6 +47,7 @@ public class VariaveisFlutuantes{
     }
 }
 ```
+
 ```java
     public class VariaveisBooleanas {
         public static void main(String args[]) {
