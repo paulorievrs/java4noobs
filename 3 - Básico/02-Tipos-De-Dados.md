@@ -15,7 +15,7 @@ Um tipo de dado inteiro é como os números dos conjuntos matemáticos. Então �
 Para visualizá-los em um programa é só utilizar o método que demonstrei no [arquivo anterior](./01-Primeiro-Programa.md), também irei utilizá-la abaixo:
 
 ```java
-public class TiposvariáveisInt {
+public class TiposDeDadosInt {
     public static void main(String[] args) {
         System.out.println(1);
         System.out.println(-1);
@@ -30,7 +30,7 @@ Elas são utilizadas como `int` no código.
 
 ---
 
-## Números de Ponto Flutuantes
+## Números de Ponto Flutuante
 
 Número de ponto flutuante são os números Reais do conjunto matématico. _R = {1.3, 1.2, 1.4}_
 
@@ -39,7 +39,7 @@ Número de ponto flutuante são os números Reais do conjunto matématico. _R = 
 Aqui está uma demonstração em código:
 
 ```java
-public class TiposvariaveisFloatDouble {
+public class TiposDeDadosFloatDouble {
     public static void main(String[] args) {
         // Números do tipo double
         System.out.println(1.3);
@@ -68,7 +68,7 @@ Esse tipo de dado é destacado por não ser um valor numérico. Ele armazena som
 Aqui está uma demonstração em código:
 
 ```java
-public class TiposvariaveisBooleano {
+public class TiposDeDadosBoolean {
     public static void main(String[] args) {
         System.out.println(true);
         System.out.println(false);
@@ -90,7 +90,7 @@ O tipo de variável `char` armazena somente um caractere, seja letra ou caracter
 Aqui está uma demonstração em código:
 
 ```java
-public class TiposvariaveisChar {
+public class TiposDeDadosChar {
     public static void main(String[] args) {
         System.out.println('c');
         System.out.println('a');
@@ -114,7 +114,7 @@ As strings são um conjunto de caracteres, ou seja, uma palavra. E ela é um obj
 Aqui está uma demonstração em código:
 
 ```java
-public class TiposvariaveisChar {
+public class TiposDeDadosString {
     public static void main(String[] args) {
         System.out.println("abcdefgh");
         System.out.println("paralelepipedo");
