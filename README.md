@@ -29,7 +29,7 @@
 ### Módulo Básico
 
 1. 🥇 [Primeiro Programa](/3%20-%20B%C3%A1sico/01-Primeiro-Programa.md)
-2. [Tipos de Dados](/3%20-%20B%C3%A1sico/02-Tipos-De-Dados.md)
+2. 🛠️ [Tipos de Dados](/3%20-%20B%C3%A1sico/02-Tipos-De-Dados.md)
 3. 📄 [Documentação e Indentação](/3%20-%20B%C3%A1sico/03-Documenta%C3%A7%C3%A3o-Identa%C3%A7%C3%A3o.md)
 4. 🚦 [Declaração de Variáveis](/3%20-%20B%C3%A1sico/04-DeclaracaoDeVariaveis.md)
 5. ➕➖ [Operadores Aritméticos](/3%20-%20B%C3%A1sico/05-OperadoresMatematicos.md)
