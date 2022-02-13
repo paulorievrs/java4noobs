@@ -86,11 +86,11 @@ public class OperadorTernario {
         int idade2 = 50;
         int idadeMaior;
 
-        idadeMaior = (idade1 > idade2 ? idade1 : idade2) { //lê-se: idadeMaior vai receber o valor de idade1 se a condição for verdadeira, caso contrário idadeMaior vai receber o valor de idade2
-
-            System.out.println(idadeMaior); //resultado vai ser "60" porque idade1(60) é maior que idade2(50).
-
-        }
+        idadeMaior = idade1 > idade2 ? idade1 : idade2; /*lê-se: idadeMaior vai receber o valor de idade1 se a condição for verdadeira, caso contrário idadeMaior vai receber o valor de idade2
+        idadeMaior também pode receber o valor diretamente em sua declaração, exemplo:
+        int idadeMaior = idade1 > idade2 ? idade1 : idade2;
+        */
+        System.out.println(idadeMaior); //resultado vai ser "60" porque idade1(60) é maior que idade2(50).
     }
 }
 ```
