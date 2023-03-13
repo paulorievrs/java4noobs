@@ -5,7 +5,7 @@ Para melhor entendimento você deve ter lido o módulo <a href="https://github.c
 
 <h2>IF/ELSE</h2>
 
-Se você ler em português **"IF" = "SE"** e **ELSE = "SENÃO"**, e na programção não é diferente, mas chamam-se estruturas de condição pois acontece desta forma: *se 5 é maior que 10 faça isso, senão, faça aquilo*.
+Se você ler em português **"IF" = "SE"** e **ELSE = "SENÃO"**, e na programação não difere, mas chamam-se estruturas de condição pois acontece desta forma: *se 5 é maior que 10, faça isso, senão, faça aquilo*.
 
 Vamos seguir para o código que é mais simples de entender.
 
@@ -13,7 +13,7 @@ O **IF** é uma estrutura separada do **ELSE** mas, o **ELSE** não existe sem u
 
 <h3>IF</h3>
 
-Na pratica o **IF** ocorre da seguinte maneira:
+Na prática, o **IF** ocorre da seguinte maneira:
 
 ```java
 public class If {
@@ -30,7 +30,7 @@ public class If {
 
 <h3>ELSE</h3>
 
-Na prática o **ELSE** ocorre assim:
+Na prática, o **ELSE** ocorre assim:
 
 ```java
 public class IfElse {
@@ -60,7 +60,7 @@ public class ElseIf {
         int idade1 = 50;
         int idade2 = 50;
 
-        if (idade1 > idade2 10) { //leia-se: "se a idade1 for maior que a idade2, ocorre o que estiver entre os blocos de chaves".
+        if (idade1 > idade2) { //leia-se: "se a idade1 for maior que a idade2, ocorre o que estiver entre os blocos de chaves".
 
             System.out.println("A idade1 é maior que a idade2");
 
@@ -97,7 +97,7 @@ public class OperadorTernario {
 Funciona da seguinte maneira: se a condição booleana <strong>(idade1 > idade2)</strong> for verdadeira, o que vai ser executado é o código que vem depois do <strong>"?"</strong>, e caso seja falso, o que vai ser executado vai ser o código que vem depois do <strong>":"</strong>.
 
 <h3>Switch Case</h3>
-O Switch Case é como se fosse a distribuição de um menu, no qual, dependendo do valor de uma variável pode realizar várias coisas. Na prática fica mais fácil de entender.
+O Switch Case é como se fosse a distribuição de um menu, no qual, dependendo do valor de uma variável, pode realizar várias coisas. Na prática, fica mais fácil de entender.
 
 ```java
 import java.util.Scanner;
