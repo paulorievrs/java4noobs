@@ -10,7 +10,7 @@ O seu computador e o compilador precisam entender como estão ocorrendo as troca
 
 ## Inteiros
 
-Um tipo de dado inteiro é como os números dos conjuntos matemáticos. Então é representado por números negativos e postivos sem vírgula, como por exemplo: _Z = {-2, -1, 0, 1, 2}_
+Um tipo de dado inteiro é como os números dos conjuntos matemáticos. Então é representado por números negativos e postivos sem vírgula, como, por exemplo: _Z = {-2, -1, 0, 1, 2}_
 
 Para visualizá-los em um programa é só utilizar o método que demonstrei no [arquivo anterior](./01-Primeiro-Programa.md), também irei utilizá-la abaixo:
 
@@ -32,7 +32,7 @@ Elas são utilizadas como `int` no código.
 
 ## Números de Ponto Flutuante
 
-Número de ponto flutuante são os números Reais do conjunto matématico. _R = {1.3, 1.2, 1.4}_
+Número de ponto flutuante são os números Reais do conjunto matemático. _R = {1.3, 1.2, 1.4}_
 
 É necessário afirmar que em programação os números não são definidos por vírgulas e sim com pontos, pois usa o sistema americano de numeração.
 
@@ -56,7 +56,7 @@ public class TiposDeDadosFloatDouble {
 }
 ```
 
-**Obs:** Para utilizar um número com ponto flutuante usando o `float` é necessário o uso do `f` no final do número.
+**Obs.:** Para utilizar um número com ponto flutuante usando o `float` é necessário o uso do `f` no final do número.
 Elas são utilizadas como `float` ou `double` no código.
 
 ---
@@ -128,4 +128,4 @@ Esse tipo de dado deve ser contida entre aspas duplas.
 
 Elas são utilizadas como `String` no código.
 
-[Próximo](./03-Documentação-Identação.md) - Documentação e Identação
+[Próximo](./03-Documentação-Identação.md) - Documentação e Indentação

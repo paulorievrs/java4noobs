@@ -15,7 +15,7 @@ A leitura de dados permite que você realize operações e simule um código rod
 
 O Scanner consegue fazer leituras de todos os tipos de dados, mas é necessário utilizar de formas diferentes para cada tipo de dado.
 
-Ou ele lê uma linha inteira, ou um tipo especifíco.
+Ou ele lê uma linha inteira, ou um tipo específico.
 
 
 ```java

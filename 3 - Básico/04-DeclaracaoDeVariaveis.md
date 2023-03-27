@@ -3,7 +3,7 @@
 As variáveis são formas de armazenar algo na memória do computador, que, podem ser reutilizadas durante o código. Elas são de extrema importância e sua
 [tipagem](./02-Tipos-De-Dados.md) também.
 
-Quando se declara uma variável você coloca o tipo dela antes (int, float, double, string, char), o nome, que não pode ser um nome reservado da linguagem (como por exemplo os nomes dos tipos de variáveis), não pode conter números no início nem acentuações. Após isso coloca-se um "=" para dizer que o valor que vem a frente é atribuido à variável, leia-se "recebe";
+Quando se declara uma variável você coloca o tipo dela antes (int, float, double, string, char), o nome, que não pode ser um nome reservado da linguagem (como, por exemplo, os nomes dos tipos de variáveis), não pode conter números no início nem acentuações. Após isso coloca-se um "=" para dizer que o valor que vem a frente é atribuído à variável, leia-se "recebe";
 
 ```java
     public class Variaveis {
@@ -14,7 +14,7 @@ Quando se declara uma variável você coloca o tipo dela antes (int, float, doub
     }
 ```
 
-Os código abaixo demonstrarão a implementação de variáveis.
+Os códigoS abaixo demonstrarão a implementação de variáveis.
 
 ```java
 public class VariaveisInteiras {
@@ -128,7 +128,7 @@ As variáveis tem várias peculiaridades, você não consegue sobrepor elas, por
 
 Esse tipo de programa geraria um erro.
 
-Ou também utilizar acentos, caracteres especiais e numeros no inicio.
+Ou também utilizar acentos, caracteres especiais e números no início.
 
 ```java
     public class Variaveis {

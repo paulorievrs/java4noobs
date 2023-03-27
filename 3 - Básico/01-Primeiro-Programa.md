@@ -24,7 +24,7 @@ public class Hello {
 }
 ```
 
-O nome da classe deve ser exatamente do nome do seu arquivo. O _public_ define que a classe é pública, portanto, qualquer um no código pode acessar ela, _class_ siginifica que estamos criando uma classe e _Hello_ é nome do seu arquivo.
+O nome da classe deve ser exatamente do nome do seu arquivo. O _public_ define que a classe é pública, portanto, qualquer um no código pode acessar ela, _class_ significa que estamos criando uma classe e _Hello_ é nome do seu arquivo.
 
 Agora complete em seu arquivo:
 
@@ -50,7 +50,7 @@ public class Hello {
 }
 ```
 
-O que foi adicionado se denomina função, em que exibe uma ou mais Strings. O _System.out_ é um objeto para saída padrão, no nosso caso o monitor, mas, pode ser arquivos ou outros tipos de redirecionamento. o _println_ é para falar que você quer "printar", ou seja, mostrar algo na tela que será passado como **parâmetro dentro dos parênteses** no nosso caso é uma _String_ que escolhemos como "Hello World", que, é o que irá aparecer na tela.
+O que foi adicionado se denomina função, em que exibe uma ou mais Strings. O _System.out_ é um objeto para saída padrão, no nosso caso, o monitor, mas, pode ser arquivos ou outros tipos de redirecionamento. O _println_ é para falar que você quer "printar", ou seja, mostrar algo na tela que será passado como **parâmetro dentro dos parênteses**, no nosso caso é uma _String_ que escolhemos como "Hello World", que, é o que irá aparecer na tela.
 
 #### Execução do arquivo
 

@@ -108,7 +108,7 @@ public class OperadorDivisao {
 
 <h2> Operador de Mod </h2>
 
-Esse operador retorna o resto de de uma divisão. O exemplo a baixo fica mais simples de entender.
+Esse operador retorna o resto de uma divisão. O exemplo a baixo fica mais simples de entender.
 
 ```java
 public class OperadorMod {
