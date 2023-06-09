@@ -32,7 +32,52 @@ Error sempre vai acontecer em tempo de excecução e é uma condição considera
 
 As exceções são problemas que podem ocorrer durante a execução de um programa Java, mas não causam um colapso total do programa, e podem ser previstas e tratadas atráves dos blocos de exceção. As exceções são divididas em duas categorias: exceções verificadas (checked exceptions) e exceções não verificadas (unchecked exceptions). As exceções verificadas são aquelas que exigem tratamento explícito ou seja necessitam da utilização dos blocos de exceções, enquanto as exceções não verificadas não requerem tratamento explícito ou a utilização dos blocos de exceções, mas é considerado boa pratica a utilização pois casa não tenha o bloco Try-Catch o seu problema se encerrara com a exception.
 
-<!-- Verificar se necessita alguma melhoria -->
+<h3>Alguns exemplos de Exceptions do tipo "Checked"</h3>
+
+> FileNotFoundException -> Ocorre quando um arquivo não pode ser encontrado durante uma leitura.
+
+> SQLException -> Ocorre quando estamos lidando a nivel de banco de dados, pode ser de erro de conexão, consultas invalidas pelo banco e etc.
+
+<h3>Alguns exemplos de Exceptions do tipo "Unchecked"</h3>
+
+> ArrayIndexOutOfBoundsException -> Quando tenta acessar um index do array no qual não existe.
+
+> NullPointerException -> Talvez a exception mais comum de acontecer, quando tentamos acessar ou executar alguma referencia (objeto) que esteja null ou seja nunca foi inicializada.
+
+<h2>Criando suas exceções</h2>
+
+Você também pode criar suas exceções no java para algum determinado fluxo ou alguma regra de negocio que você tenha em seu codigo, assim facilitando a localização e descobrindo o que pode ter acontecido pelo caminho, basta você criar uma classe extendendo a classe de erro.
+
+```java
+public class MinhaExcecao extends RuntimeException {
+    //Chame os contrutores da classe mãe.
+
+    //Esse por exemplo você so coloca a mensagem que deseja expor no erro
+    public MinhaExcecao(String mensagem) {
+        super(mensagem);
+    }
+    
+    //Esse vai expor a mensagem e o erro completo com um caminho de todo o código até chegar nele é um ponto importante para futuros debugs.
+    public MinhaExcecao(String mensagem, Throwable error) {
+        super(mensagem, error);
+    }
+}
+```
+ 
+ > Obs: Para criar uma exception do tipo checked basta utilizar o "extends Exception". 
+
+Agora um exemplo de como voce poderia utilizar a sua exceção
+
+```java
+public class ExemploMinhaExcecao {
+
+    public static void main(String[] args) {
+        //Caso tenha algum fluxo que você ache nessário utiliza-la basta usar o codigo abaixo
+        throw new MinhaExcecao("Opa, você caiu na minha exceção!");        
+    }
+}
+```
+
 <h2>Blocos de exceções</h2>
 
 As exceções tem três blocos, sendo dois deles obrigatórios. O **try**, **catch** e o **finally**. Se o **try** for utilizado, é necessário utilizar **catch** ou **finally**. Isso é, pode existir as seguintes combinações:
