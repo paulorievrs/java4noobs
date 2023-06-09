@@ -1,42 +1,42 @@
 <h1>Exceções</h1>
 
-Geralmente ao construir um programa somos deparados com alguns erros no fluxo das nossas aplicações, mas não se preocupe com esse tópico você irá aprender um pouco mais sobre elas, e com isso chegamos a este tópico sobre exceções, aqui falaremos um pouco mais sobre, o que é, e como tornar possível  com que sejam ignorados ou tratado esses erros caso seja o propósito do seu programa.
+Geralmente ao construir um programa somos deparados com alguns erros no fluxo das nossas aplicações, mas não se preocupe com esse tópico você irá aprender um pouco mais sobre elas, e com isso chegamos a este tópico sobre exceções, aqui falaremos um pouco mais sobre, o que é, e como tornar possível com que sejam ignorados ou tratado esses erros caso seja o propósito do seu programa.
 
 <h2>Tipos de Exceções</h2>
 
-Primeiro vamos conhecer os tipos de exceções que temos no Java, iremos falar sobre alguns conceitos de POO que estão ligados aos tipos de exceções mas não se preocupe que vamos conhecer mais sobre POO no proximo modulo intermediário.
+Primeiro vamos conhecer os tipos de exceções que temos no Java, iremos falar sobre alguns conceitos de POO que estão ligados aos tipos de exceções, mas não se preocupe que vamos conhecer mais sobre POO no próximo modulo intermediário.
 
 <img style="margin: 20px 0 20px 0;" src="../img/arvore_exceptions.jpeg">
 
 <h3>Throwable</h3>
 
-Considerada a classe mãe das exceções , ou seja, toda exceção ou erro é considerada uma sub-classe de Throwable.
+Considerada a classe mãe das exceções, ou seja, toda exceção ou erro é considerada uma subclasse de Throwable.
 
 <br>
 
 <h3>Error</h3>
 
-Error sempre vai acontecer em tempo de excecução e é uma condição considerada irrecuperável, ou seja, a sua aplicação é encerrada após tomar um throwable do tipo erro. Não pode ser tratada com blocos Try-catch pois os erros estão ligados a JVM normalmente são considerado "problemas" de baixo nivel, como falta de memória, falhas de hardware ou problemas no sistema operacional.
+Erros sempre vai acontecer em tempo de execução e é uma condição considerada irrecuperável, ou seja, a sua aplicação é encerrada após tomar um throwable do tipo erro. Não pode ser tratada com blocos Try-catch pois os erros estão ligados a JVM normalmente são considerado "problemas" de baixo nível, como falta de memória, falhas de hardware ou problemas no sistema operacional.
 
 <h3>Alguns exemplos de Throwable do tipo "Error"</h3>
 
-> OutOfMemoryError -> Esse erro se da quando a JVM não consegue mais alocar nada na memoria
+> OutOfMemoryError -> Esse erro se dá quando a JVM não consegue mais alocar nada na memória.
 
-> StackOverflowError -> Acontece quando a quantidade de memoria da pilha é ultrapassada.
+> StackOverflowError ->  Acontece quando a quantidade de memória da pilha é ultrapassada.
 
-> NoClassDefFoundError -> Diz que a JVM tentou buscar internamente a pela sua classe e não a encontrou
+> NoClassDefFoundError -> Diz que a JVM tentou buscar internamente a pela sua classe e não a encontrou.
 
 <br>
 
 <h3>Exceptions</h3>
 
-As exceções são problemas que podem ocorrer durante a execução de um programa Java, mas não causam um colapso total do programa, e podem ser previstas e tratadas atráves dos blocos de exceção. As exceções são divididas em duas categorias: exceções verificadas (checked exceptions) e exceções não verificadas (unchecked exceptions). As exceções verificadas são aquelas que exigem tratamento explícito ou seja necessitam da utilização dos blocos de exceções, enquanto as exceções não verificadas não requerem tratamento explícito ou a utilização dos blocos de exceções, mas é considerado boa pratica a utilização pois casa não tenha o bloco Try-Catch o seu problema se encerrara com a exception.
+As exceções são problemas que podem ocorrer durante a execução de um programa Java, mas não causam um colapso total do programa, e podem ser previstas e tratadas através dos blocos de exceção. As exceções são divididas em duas categorias: exceções verificadas (checked exceptions) e exceções não verificadas (unchecked exceptions). As exceções verificadas são aquelas que exigem tratamento explícito, ou seja, necessitam da utilização dos blocos de exceções, enquanto as exceções não verificadas não requerem tratamento explícito ou a utilização dos blocos de exceções, mas é considerado boa pratica a utilização pois casa não tenha o bloco Try-Catch o seu problema se encerrara com a exception.
 
 <h3>Alguns exemplos de Exceptions do tipo "Checked"</h3>
 
 > FileNotFoundException -> Ocorre quando um arquivo não pode ser encontrado durante uma leitura.
 
-> SQLException -> Ocorre quando estamos lidando a nivel de banco de dados, pode ser de erro de conexão, consultas invalidas pelo banco e etc.
+> SQLException -> Ocorre quando estamos lidando a nível de banco de dados, pode ser de erro de conexão, consultas invalidas pelo banco etc.
 
 <h3>Alguns exemplos de Exceptions do tipo "Unchecked"</h3>
 
@@ -46,7 +46,7 @@ As exceções são problemas que podem ocorrer durante a execução de um progra
 
 <h2>Criando suas exceções</h2>
 
-Você também pode criar suas exceções no java para algum determinado fluxo ou alguma regra de negocio que você tenha em seu codigo, assim facilitando a localização e descobrindo o que pode ter acontecido pelo caminho, basta você criar uma classe extendendo a classe de erro.
+Você também pode criar suas exceções no Java para algum determinado fluxo ou alguma regra de negócio que você tenha em seu código, assim facilitando a localização e descobrindo o que pode ter acontecido pelo caminho, basta você criar uma classe estendendo a classe de erro.
 
 ```java
 public class MinhaExcecao extends RuntimeException {
@@ -64,7 +64,7 @@ public class MinhaExcecao extends RuntimeException {
 }
 ```
  
- > Obs: Para criar uma exception do tipo checked basta utilizar o "extends Exception". 
+ > Obs: Para criar uma exception do tipo checked basta utilizar o "extends Exception".
 
 Agora um exemplo de como voce poderia utilizar a sua exceção
 
