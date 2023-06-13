@@ -30,7 +30,7 @@ Erros sempre vai acontecer em tempo de execução e é uma condição considerad
 
 <h3>Exceptions</h3>
 
-As exceções são problemas que podem ocorrer durante a execução de um programa Java, mas não causam um colapso total do programa, e podem ser previstas e tratadas através dos blocos de exceção. As exceções são divididas em duas categorias: exceções verificadas (checked exceptions) e exceções não verificadas (unchecked exceptions). As exceções verificadas são aquelas que exigem tratamento explícito, ou seja, necessitam da utilização dos blocos de exceções, enquanto as exceções não verificadas não requerem tratamento explícito ou a utilização dos blocos de exceções, mas é considerado boa pratica a utilização, pois caso não tenha o bloco Try-Catch, o seu programa se encerrará com a exception.
+As exceções são problemas que podem ocorrer durante a execução de um programa Java, mas não causam um colapso total do programa, e podem ser previstas e tratadas através dos blocos de exceção. As exceções são divididas em duas categorias: exceções verificadas (checked exceptions) e exceções não verificadas (unchecked exceptions) que são chamadas de RuntimeException. As exceções verificadas são aquelas que exigem tratamento explícito, ou seja, necessitam da utilização dos blocos de exceções, enquanto as exceções não verificadas não requerem tratamento explícito ou a utilização dos blocos de exceções, mas é considerado boa pratica a utilização, pois caso não tenha o bloco Try-Catch, o seu programa se encerrará com a exception.
 
 <h3>Alguns exemplos de Exceptions do tipo "Checked"</h3>
 
