@@ -20,7 +20,7 @@ Erros sempre vai acontecer em tempo de execução e é uma condição considerad
 
 <h3>Alguns exemplos de Throwable do tipo "Error"</h3>
 
-> OutOfMemoryError -> Esse erro se dá quando a JVM não consegue mais alocar nada na memória.
+> OutOfMemoryError -> Esse erro se dá quando a JVM não consegue alocar mais memória.
 
 > StackOverflowError -> Acontece quando a quantidade de memória da pilha é ultrapassada.
 
