@@ -6,7 +6,7 @@ Geralmente ao construir um programa somos deparados com alguns erros no fluxo da
 
 Primeiro vamos conhecer os tipos de exceções que temos no Java, iremos falar sobre alguns conceitos de POO que estão ligados aos tipos de exceções, mas não se preocupe que vamos conhecer mais sobre POO no próximo modulo intermediário.
 
-<img style="margin: 20px 0 20px 0;" src="../img/arvore_exceptions.jpeg">
+<img style="margin: 20px 0 20px 0;" src="../img/arvore_de_exceptions.png">
 
 <h3>Throwable</h3>
 
