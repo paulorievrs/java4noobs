@@ -1,6 +1,6 @@
 <h1>Exceções</h1>
 
-Geralmente ao construir um programa somos deparados com alguns erros no fluxo das nossas aplicações, mas não se preocupe com esse tópico você irá aprender um pouco mais sobre elas, e com isso chegamos a este tópico sobre exceções, aqui falaremos um pouco mais sobre, o que é, e como tornar possível com que sejam ignorados ou tratado esses erros caso seja o propósito do seu programa.
+Neste módulo, abordaremos os diferentes tipos de exceções presentes no Java, discutindo cada uma delas, bem como as estratégias para lidar com essas exceções e como declarar novas exceções em nosso código. É importante compreender as exceções e saber como tratá-las, uma vez que uma exceção indica que algo está incorreto no fluxo do programa, e erros no fluxo podem resultar na interrupção da aplicação. Aprofundar-se nesse tema permitirá que você identifique e solucione problemas, garantindo o bom funcionamento de suas aplicações.
 
 <h2>Tipos de Exceções</h2>
 
