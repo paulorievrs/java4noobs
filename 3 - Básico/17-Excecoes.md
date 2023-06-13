@@ -72,7 +72,7 @@ Agora um exemplo de como voce poderia utilizar a sua exceção
 public class ExemploMinhaExcecao {
 
     public static void main(String[] args) {
-        //Caso tenha algum fluxo que você ache nessário utiliza-la basta usar o codigo abaixo
+        //Caso tenha algum fluxo que você ache nessário utilizá-la basta usar o código abaixo
         throw new MinhaExcecao("Opa, você caiu na minha exceção!");        
     }
 }
