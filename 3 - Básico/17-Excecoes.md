@@ -22,7 +22,7 @@ Erros sempre vai acontecer em tempo de execução e é uma condição considerad
 
 > OutOfMemoryError -> Esse erro se dá quando a JVM não consegue mais alocar nada na memória.
 
-> StackOverflowError ->  Acontece quando a quantidade de memória da pilha é ultrapassada.
+> StackOverflowError -> Acontece quando a quantidade de memória da pilha é ultrapassada.
 
 > NoClassDefFoundError -> Diz que a JVM tentou buscar internamente a pela sua classe e não a encontrou.
 
