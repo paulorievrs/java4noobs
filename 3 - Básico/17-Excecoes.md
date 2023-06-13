@@ -46,7 +46,7 @@ As exceções são problemas que podem ocorrer durante a execução de um progra
 
 <h2>Criando suas exceções</h2>
 
-Você também pode criar suas exceções no Java para algum determinado fluxo ou alguma regra de negócio que você tenha em seu código, assim facilitando a localização e descobrindo o que pode ter acontecido pelo caminho, basta você criar uma classe estendendo a classe de erro.
+Você também pode criar suas exceções no Java para algum determinado fluxo ou alguma regra de negócio que possa disparar algum erro, assim facilitando a localização e descobrindo o que pode ter acontecido pelo caminho. Para isso, basta criar uma classe que herde alguma classe de erro, como `RuntimeException` ou `Exception`.
 
 ```java
 public class MinhaExcecao extends RuntimeException {
