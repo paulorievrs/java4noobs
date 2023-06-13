@@ -24,7 +24,7 @@ Erros sempre vai acontecer em tempo de execução e é uma condição considerad
 
 > StackOverflowError -> Acontece quando a quantidade de memória da pilha é ultrapassada.
 
-> NoClassDefFoundError -> Diz que a JVM tentou buscar internamente a pela sua classe e não a encontrou.
+> NoClassDefFoundError -> Ocorre quando a JVM não consegue encontrar a sua classe.
 
 <br>
 
