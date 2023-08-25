@@ -7,7 +7,28 @@ Ambos os operadores são utilizados na maioria em estruturas de condição, que 
 
 <img src="../img/OperadoresLogicos.png"> </a>
 
-Se você conhece algum tipo de lógica de programação, já entendeu como eles funcionam, mas para esclarecer entraremos em mais detelhes.
+Se você conhece algum tipo de lógica de programação, já entendeu como eles funcionam, mas para esclarecer entraremos em mais detalhes.
+
+```java
+public class OperadoresLogicos {
+    public static void main(String args[]) {
+
+        // Exemplo da funcionalidade do operador lógico "&&" (AND)
+        System.out.println(true && true); // true
+        System.out.println(true && false); // false
+        System.out.println(false && false); // false
+
+        // Exemplo da funcionalidade do operador lógico "||" (OR)
+        System.out.println(true || true); // true
+        System.out.println(true || false); // true
+        System.out.println(false || false); // false
+
+        // Exemplo da funcionalidade do operador lógico "!" (NOT)
+        System.out.println(!true); // false
+        System.out.println(!false); // true
+    }
+}
+```
 
 <h2> Operadores de Comparação </h2>
 
