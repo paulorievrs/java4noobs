@@ -43,7 +43,7 @@
 13. 🔠 [Arrays](/3%20-%20B%C3%A1sico/13-Arrays.md)
 14. 📝 [Exercício 2](/3%20-%20B%C3%A1sico/14-Exercico2.md)
 15. 🔠 [Arrays Multidimensionais/Matrizes](/3%20-%20B%C3%A1sico/15-Matrizes.md)
-16. 🏃‍♂ [Diferenças de Métodos static e non-static](/3%20-%20B%C3%A1sico/16-Diferencas-Static-nonStatic.md)
+16. 🏃‍♂ [Diferença entre static e non-static](/3%20-%20B%C3%A1sico/16-Diferencas-Static-nonStatic.md)
 17. ✋ [Exceções](/3%20-%20B%C3%A1sico/17-Excecoes.md)
 
 ### Módulo Intermediário
