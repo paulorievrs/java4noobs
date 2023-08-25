@@ -48,6 +48,34 @@ O uso de uma função deve ser tão natural quando o uso de uma variável, assim
 
 Além disso, é possível criar funções que podem ser reutilizadas, como a da soma, ou você pode criar uma função que lê dados digitados pelo usuário e retorna eles, fica mais fácil do que chamar o Scanner a todo momento.
 
+## Métodos sobrecarregados
+
+Métodos sobrecarregados são métodos que possuem o mesmo nome, porém com parâmetros diferentes. Isso é possível porque o compilador Java diferencia os métodos pelo número de parâmetros e pelo tipo de parâmetro. O conjunto de nome + parâmetros é chamado de assinatura do método. Podem haver métodos com o mesmo nome, mas com assinaturas diferentes.
+
+No exemplo abaixo, há três métodos com o mesmo nome, porém com assinaturas diferentes. O primeiro método recebe dois parâmetros inteiros, o segundo recebe dois parâmetros double e o terceiro recebe três parâmetros inteiros.
+
+```java
+public class MetodosSobrecarregados {
+    public static void main(String[] args) {
+        System.out.println(soma(1, 2));
+        System.out.println(soma(1.0, 2.0));
+        System.out.println(soma(1, 2, 3));
+    }
+
+    public static int soma(int a, int b) {
+        return a + b;
+    }
+
+    public static double soma(double a, double b) {
+        return a + b;
+    }
+
+    public static int soma(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+```
+
 <h1>Expressões Lambda</h1>
 
 A versão 8 do Java é muito conhecida por trazer novos recursos que facilitaram bastante a vida do desenvolvedor Java no dia a dia, API Stream, LocalDateTime, e Lambda Expressions. Essas foram algumas das melhorias trazidas pela Oracle para a linguagem e o último em especial foi um grande avanço, já que muitas linguagens já contavam com esse recurso.
