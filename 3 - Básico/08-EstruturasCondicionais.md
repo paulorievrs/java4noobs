@@ -134,4 +134,34 @@ public class Switch {
 
 ```
 
+###  Switch Expression
+
+A versão 12 do Java adicionou uma funcionalidade chamada de Switch Expression que permite que o switch case seja utilizado de uma maneira mais concisa e simples. Nem todas as empresas utilizam essa versão do Java, então é importante saber como funciona o switch case normal e seguir as boas práticas do projeto que você está trabalhando.
+
+Uma Switch Expression não precisa de um break para finalizar cada bloco, e switch pode ser utilizado como uma expressão, ou seja, ele retorna um valor que pode ser atribuido a uma variável.
+
+Olha como fica o código acima utilizando Switch Expression:
+
+```java
+import java.util.Scanner;
+public class Switch {
+    public static void main(String args[]) {
+        Scanner leitor = new Scanner(System.in);
+        int caso = 0;
+
+        System.out.println("Digite 1 para mostrar o nome Paulo, 2 para mostrar o nome José, e 3 para mostrar o nome Joyce");
+        caso = leitor.nextInt();
+
+        String resultado = switch (caso) {
+            case 1 -> "Paulo";
+            case 2 -> "José";
+            case 3 -> "Joyce";
+            default -> "Valor não encontrado no menu";
+        };
+
+        System.out.println(resultado);
+    }
+}
+```
+
 [Próximo](./09-Exercicio1.md) - Exercício 1
