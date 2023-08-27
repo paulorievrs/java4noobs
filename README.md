@@ -62,6 +62,7 @@
 12. 🔠 [Listas Imutáveis](/4%20-%20Intermedi%C3%A1rio/09-Listas-imutaveis.md)
 13. 🔠 [Sets](/4%20-%20Intermedi%C3%A1rio/10-Sets.md)
 14. 🔠 [Map](/4%20-%20Intermedi%C3%A1rio/11-Map.md)
+15. 🔠 [Genéricos](/4%20-%20Intermedi%C3%A1rio/15-Genericos.md)
 
 ### Extras
 
