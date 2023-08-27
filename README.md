@@ -55,12 +55,13 @@
 5. 👨‍🏫 [Utilizando a Classe](/4%20-%20Intermedi%C3%A1rio/05-Utilizando-Classe.md)
 6. 👨‍🏫 [Herança](4%20-%20Intermedi%C3%A1rio/06-Heranca.md) 
 7. 👨‍🏫 [Interfaces](/4%20-%20Intermedi%C3%A1rio/06-Interfaces.md)
-8. 🔒 [Modificadores de Acesso](/4%20-%20Intermedi%C3%A1rio/x-ModificadoresDeAcesso.md)
-9. 🔠 [Collections e Stream API](/4%20-%20Intermedi%C3%A1rio/07-Collections-e-Stream.md)
-10. 🔠 [LinkedList vs ArrayList](/4%20-%20Intermedi%C3%A1rio/08-LinkedList-vs-ArrayList.md)
-11. 🔠 [Listas Imutáveis](/4%20-%20Intermedi%C3%A1rio/09-Listas-imutaveis.md)
-12. 🔠 [Sets](/4%20-%20Intermedi%C3%A1rio/10-Sets.md)
-13. 🔠 [Map](/4%20-%20Intermedi%C3%A1rio/11-Map.md)
+8. 👨‍🏫 [Polimorfismo](/4%20-%20Intermedi%C3%A1rio/08-Polimorfismo.md)
+9. 🔒 [Modificadores de Acesso](/4%20-%20Intermedi%C3%A1rio/x-ModificadoresDeAcesso.md)
+10. 🔠 [Collections e Stream API](/4%20-%20Intermedi%C3%A1rio/07-Collections-e-Stream.md)
+11. 🔠 [LinkedList vs ArrayList](/4%20-%20Intermedi%C3%A1rio/08-LinkedList-vs-ArrayList.md)
+12. 🔠 [Listas Imutáveis](/4%20-%20Intermedi%C3%A1rio/09-Listas-imutaveis.md)
+13. 🔠 [Sets](/4%20-%20Intermedi%C3%A1rio/10-Sets.md)
+14. 🔠 [Map](/4%20-%20Intermedi%C3%A1rio/11-Map.md)
 
 ### Extras
 
