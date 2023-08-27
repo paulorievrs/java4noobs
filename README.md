@@ -53,13 +53,14 @@
 3. 🤖 [Início de Programação Orientada ao Objeto](/4%20-%20Intermedi%C3%A1rio/03-InicioPOO.md)
 4. 👨‍🏫 [Minha Primeira Classe](/4%20-%20Intermedi%C3%A1rio/04-PrimeiraClasse.md)
 5. 👨‍🏫 [Utilizando a Classe](/4%20-%20Intermedi%C3%A1rio/05-Utilizando-Classe.md)
-6. 👨‍🏫 [Interfaces](/4%20-%20Intermedi%C3%A1rio/06-Interfaces.md)
-7. 🔒 [Modificadores de Acesso](/4%20-%20Intermedi%C3%A1rio/x-ModificadoresDeAcesso.md)
-8. 🔠 [Collections e Stream API](/4%20-%20Intermedi%C3%A1rio/07-Collections-e-Stream.md)
-9. 🔠 [LinkedList vs ArrayList](/4%20-%20Intermedi%C3%A1rio/08-LinkedList-vs-ArrayList.md)
-10. 🔠 [Listas Imutáveis](/4%20-%20Intermedi%C3%A1rio/09-Listas-imutaveis.md)
-11. 🔠 [Sets](/4%20-%20Intermedi%C3%A1rio/10-Sets.md)
-12. 🔠 [Map](/4%20-%20Intermedi%C3%A1rio/11-Map.md)
+6. 👨‍🏫 [Herança](4%20-%20Intermedi%C3%A1rio/06-Heranca.md) 
+7. 👨‍🏫 [Interfaces](/4%20-%20Intermedi%C3%A1rio/06-Interfaces.md)
+8. 🔒 [Modificadores de Acesso](/4%20-%20Intermedi%C3%A1rio/x-ModificadoresDeAcesso.md)
+9. 🔠 [Collections e Stream API](/4%20-%20Intermedi%C3%A1rio/07-Collections-e-Stream.md)
+10. 🔠 [LinkedList vs ArrayList](/4%20-%20Intermedi%C3%A1rio/08-LinkedList-vs-ArrayList.md)
+11. 🔠 [Listas Imutáveis](/4%20-%20Intermedi%C3%A1rio/09-Listas-imutaveis.md)
+12. 🔠 [Sets](/4%20-%20Intermedi%C3%A1rio/10-Sets.md)
+13. 🔠 [Map](/4%20-%20Intermedi%C3%A1rio/11-Map.md)
 
 ### Extras
 
