@@ -67,3 +67,5 @@ public interface ElegivelCartao {
 Nesse caso, o usuário além de implementar a geração de cartão, já terá definido por padrão um método de ativação de cartão, o qual nós já especificamos como deverá se comportar, sem ter que criar uma classe para isso e estendê-la.
 
 Vale ressaltar que também há implementações possíveis para o uso de _static_ nas interfaces a partir do Java 8.
+
+[Próximo](./08-Polimorfismo.md) - Polimorfismo

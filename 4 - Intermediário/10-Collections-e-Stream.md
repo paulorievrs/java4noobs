@@ -37,4 +37,4 @@ List<String> novaLista = streamList.collect(toList());
 
 Se você reparar o fluxo que fizemos, primeiro filtramos, depois aplicamos uma função para cada elemento, depois reordenamos e por fim coletamos, dessa foram podemos entender a API Stream também como um fluxo de operações as quais podemos fazer sobre uma coleção, de forma paralela e que no fim podemos coletar uma nova coleção com os métodos utilizados, de certa forma podemos fazer uma analogia da API Stream com uma _Pipeline_.
 
-[Próximo](./08-LinkedList-vs-ArrayList.md) - List, ArrayList e LinkedList
+[Próximo](./11-LinkedList-vs-ArrayList.md) - List, ArrayList e LinkedList

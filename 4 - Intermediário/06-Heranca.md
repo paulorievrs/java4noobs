@@ -46,3 +46,5 @@ class Cachorro extends Animal {
     }
 }
 ```
+
+[Próximo](./07-Interfaces.md) - Interfaces

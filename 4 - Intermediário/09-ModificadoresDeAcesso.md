@@ -16,3 +16,5 @@ public class ModificadoresAcesso {
     String padrao = "padrao";
 }
 ```
+
+[Próximo](./10-Collections-e-Stream.md) - Collections e Stream API
