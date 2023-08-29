@@ -31,7 +31,7 @@
 1. 🥇 [Primeiro Programa](/3%20-%20B%C3%A1sico/01-Primeiro-Programa.md)
 2. 🛢️ [Tipos de Dados](/3%20-%20B%C3%A1sico/02-Tipos-De-Dados.md)
 3. 📄 [Documentação e Indentação](/3%20-%20B%C3%A1sico/03-Documenta%C3%A7%C3%A3o-Identa%C3%A7%C3%A3o.md)
-4. 🚦 [Declaração de Variáveis](/3%20-%20B%C3%A1sico/04-DeclaracaoDeVariaveis.md)
+4. 🚦 [Variáveis](/3%20-%20B%C3%A1sico/04-Variaveis.md)
 5. ➕➖ [Operadores Aritméticos](/3%20-%20B%C3%A1sico/05-OperadoresMatematicos.md)
 6. 🎹 [Ler Dados da Entrada Padrão](/3%20-%20B%C3%A1sico/06-LendoDadosDaEntradaPadrao.md)
 7. ❗❓ [Operadores Lógicos e de Comparação](/3%20-%20B%C3%A1sico/07-OperadoresLogicos-e-Comparacao.md)
@@ -43,7 +43,7 @@
 13. 🔠 [Arrays](/3%20-%20B%C3%A1sico/13-Arrays.md)
 14. 📝 [Exercício 2](/3%20-%20B%C3%A1sico/14-Exercico2.md)
 15. 🔠 [Arrays Multidimensionais/Matrizes](/3%20-%20B%C3%A1sico/15-Matrizes.md)
-16. 🏃‍♂ [Diferenças de Métodos static e non-static](/3%20-%20B%C3%A1sico/16-Diferencas-Static-nonStatic.md)
+16. 🏃‍♂ [Diferença entre static e non-static](/3%20-%20B%C3%A1sico/16-Diferencas-Static-nonStatic.md)
 17. ✋ [Exceções](/3%20-%20B%C3%A1sico/17-Excecoes.md)
 
 ### Módulo Intermediário
@@ -53,12 +53,16 @@
 3. 🤖 [Início de Programação Orientada ao Objeto](/4%20-%20Intermedi%C3%A1rio/03-InicioPOO.md)
 4. 👨‍🏫 [Minha Primeira Classe](/4%20-%20Intermedi%C3%A1rio/04-PrimeiraClasse.md)
 5. 👨‍🏫 [Utilizando a Classe](/4%20-%20Intermedi%C3%A1rio/05-Utilizando-Classe.md)
-6. 👨‍🏫 [Interfaces](/4%20-%20Intermedi%C3%A1rio/06-Interfaces.md)
-7. 🔠 [Collections e Stream API](/4%20-%20Intermedi%C3%A1rio/07-Collections-e-Stream.md)
-8. 🔠 [LinkedList vs ArrayList](/4%20-%20Intermedi%C3%A1rio/08-LinkedList-vs-ArrayList.md)
-9. 🔠 [Listas Imutáveis](/4%20-%20Intermedi%C3%A1rio/09-Listas-imutaveis.md)
-10. 🔠 [Sets](/4%20-%20Intermedi%C3%A1rio/10-Sets.md)
-11. 🔠 [Map](/4%20-%20Intermedi%C3%A1rio/11-Map.md)
+6. 👨‍🏫 [Herança](4%20-%20Intermedi%C3%A1rio/06-Heranca.md) 
+7. 👨‍🏫 [Interfaces](/4%20-%20Intermedi%C3%A1rio/07-Interfaces.md)
+8. 👨‍🏫 [Polimorfismo](/4%20-%20Intermedi%C3%A1rio/08-Polimorfismo.md)
+9. 🔒 [Modificadores de Acesso](/4%20-%20Intermedi%C3%A1rio/09-ModificadoresDeAcesso.md)
+10. 🔠 [Collections e Stream API](/4%20-%20Intermedi%C3%A1rio/10-Collections-e-Stream.md)
+11. 🔠 [LinkedList vs ArrayList](/4%20-%20Intermedi%C3%A1rio/11-LinkedList-vs-ArrayList.md)
+12. 🔠 [Listas Imutáveis](/4%20-%20Intermedi%C3%A1rio/12-Listas-imutaveis.md)
+13. 🔠 [Sets](/4%20-%20Intermedi%C3%A1rio/13-Sets.md)
+14. 🔠 [Map](/4%20-%20Intermedi%C3%A1rio/14-Map.md)
+15. 🔠 [Genéricos](/4%20-%20Intermedi%C3%A1rio/15-Genericos.md)
 
 ### Extras
 

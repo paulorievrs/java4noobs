@@ -1,18 +1,58 @@
-<h1>Declaração de variáveis</h1>
+# Variáveis
 
 As variáveis são formas de armazenar algo na memória do computador, que, podem ser reutilizadas durante o código. Elas são de extrema importância e sua
 [tipagem](./02-Tipos-De-Dados.md) também.
 
-Quando se declara uma variável você coloca o tipo dela antes (int, float, double, string, char), o nome, que não pode ser um nome reservado da linguagem (como por exemplo os nomes dos tipos de variáveis), não pode conter números no início nem acentuações. Após isso coloca-se um "=" para dizer que o valor que vem a frente é atribuido à variável, leia-se "recebe";
+## Criando variáveis
+
+Existem duas maneira de se criar variáveis em Java. Uma das maneiras consiste em dois passos, em um você declara a variável e no outro você atribui um valor a ela. A outra maneira consiste em um passo, onde você declara e atribui um valor a ela, isso se chama inicialização.
+
+### Declaração de variáveis
+
+Declarar uma variável consiste em dizer o tipo e o nome da váriavel. É como se você dissesse ao programa que vai utilizar aquela váriavel no futuro, porém no momento ainda não tem um valor para atribuir à ela.
 
 ```java
     public class Variaveis {
         public static void main(String args[]) {
-            //tipo nome = valor;
-            int idade = 10; //Exemplo básico.
+            int x; //Exemplo de declaração de variável
         }
     }
 ```
+
+### Atribuição de valor
+
+Atribuir valor a uma variável consiste em dizer que a variável que você declarou anteriormente vai receber um valor. Isso é feito utilizando o sinal de "=". Uma mesma variável pode receber vários valores durante a execução do programa, porém, somente um valor por vez. E o valor tem que ser do mesmo tipo que foi declarado anteriormente.
+
+```java
+public class Variaveis {
+        public static void main(String args[]) {
+
+            int x; // Exemplo de declaração de variável
+            x = 10; // Exemplo de atribuição de valor
+
+            System.out.println(x); // Aqui o valor exibido vai ser 10, pois é o valor que foi atribuido à variável x.
+
+            x = 11; // O valor 11 é atribuido à variável x.
+
+            System.out.println(x); // Aqui o valor exibido vai ser 11, pois é o novo valor que foi atribuido à variável x.
+        }
+    }
+```
+
+### Inicialização de variáveis
+
+A inicialização de uma variável consiste em realizar a declaração e a atribuição de uma variável em um único passo. Isso é feito especificando o tipo da variável, o nome da variável, um sinal de "=" e o valor que será atribuido à variável em uma única linha.
+
+```java
+public class Variaveis {
+    public static void main(String args[]) {
+        //tipo nome = valor;
+        int idade = 10; //Exemplo básico.
+    }
+}
+```
+
+## Exemplos da utilização de variáveis
 
 Os código abaixo demonstrarão a implementação de variáveis.
 

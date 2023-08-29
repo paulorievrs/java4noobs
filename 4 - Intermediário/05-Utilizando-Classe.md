@@ -107,4 +107,4 @@ public class UtilizandoClasse {
 }
 ```
 
-[Próximo](./07-Collections-e-Stream.md) - Collections e Stream API
+[Próximo](./06-Heranca.md) - Herança
