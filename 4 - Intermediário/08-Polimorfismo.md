@@ -127,3 +127,5 @@ public class Main {
 ```
 
 No exemplo acima declaramos uma váriavel `animal` do tipo `Animal`. Dependendo da opção escolhida pelo usuário, instanciamos um objeto do tipo `Cachorro` ou `Gato` e atribuímos à variável `animal`. Em seguida, chamamos o método `fazerBarulho()` do objeto `animal`. Como o método `fazerBarulho()` foi sobrescrito pelas classes `Cachorro` e `Gato`, o método chamado será o da classe instanciada. Isso tudo ocorre em tempo de execução, por isso o nome polimorfismo dinâmico.
+
+É relevante mencionar que a abordagem do exemplo acima se conecta com a [seção de variáveis](/3%20-%20B%C3%A1sico/04-Variaveis.md), uma vez que está utilizando o conceito de "inicialização tardia" de uma variável.
