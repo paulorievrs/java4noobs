@@ -76,11 +76,7 @@ Contribuições fazem com que a comunidade open source seja um lugar incrível p
 são **extremamente apreciadas**
 
 1. Realize um Fork do projeto
-2. Para realizar o fork siga os seguintes passos:
-3.  Vá até a página inicial do repositório e clique no botão Fork que se encontra no topo da página à direita. Ao fim do processo, copie a URL do repositório criado (o "seu" java4noobs)
-4. Essa URL seguirá o formato (`https://github.com/<seu_usuario>/java4noobs`)
-5. Para ter acesso ao fork criado na sua máquina é necessário clonar o repositório. Que pode ser feito através do comando (`<git clone>`) e a URL do seu fork. No seu terminal você irá digitar o comando: (`git clone <url_do_fork>`)
-6. Crie um branch com a nova feature (`git checkout -b feature/featureBraba`)
+2. Crie um branch com a nova feature (`git checkout -b feature/featureBraba`)
 7. Realize o Commit (`git commit -m 'Add some featureBraba'`)
 8. Realize o Push no Branch (`git push origin feature/featureBraba`)
 9. Abra um Pull Request
