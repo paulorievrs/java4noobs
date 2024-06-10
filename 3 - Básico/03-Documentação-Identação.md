@@ -26,6 +26,7 @@ Nenhuma linha que está a frente das duas barras ( <b>//</b> ) é interpretada p
 
 Javadoc é uma ferramenta que gera documentação HTML a partir de comentários no código-fonte Java. Esses comentários devem estar em blocos iniciados por `/**` e terminados por `*/`. A documentação gerada é muito útil para entender APIs e bibliotecas Java.
 
+
 ## Exemplo de Comentário Javadoc
 
 ```java
