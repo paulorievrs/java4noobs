@@ -77,9 +77,9 @@ são **extremamente apreciadas**
 
 1. Realize um Fork do projeto
 2. Crie um branch com a nova feature (`git checkout -b feature/featureBraba`)
-7. Realize o Commit (`git commit -m 'Add some featureBraba'`)
-8. Realize o Push no Branch (`git push origin feature/featureBraba`)
-9. Abra um Pull Request
+3. Realize o Commit (`git commit -m 'Add some featureBraba'`)
+4. Realize o Push no Branch (`git push origin feature/featureBraba`)
+5. Abra um Pull Request
 
 ou simplesmente, crie uma **ISSUE**
 
