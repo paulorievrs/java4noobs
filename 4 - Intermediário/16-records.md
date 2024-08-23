@@ -100,9 +100,9 @@ Records em conjunto com outras classes Java sem problemas.
 
 Por outro lado, eles também possuem algumas desvantagens, como, por exemplo:
 
-- Restrições na personalização de métodos: Por padrão, os Records fornecem métodos padrão, como `equals()`, `hashCode()` e `toString()`, que não podem ser personalizados. Embora seja possível fornecer uma implementação personalizada desses métodos, isso pode ser menos conveniente do que simplesmente estendê-los ou anulá-los em uma classe normal.
+- Imutabilidade e Encapsulamento: Os Records são projetados para ser imutáveis, o que significa que seus campos são finais e acessíveis apenas através de métodos de acesso. Como resultado, você não pode modificar os campos diretamente, e isso limita as formas como você pode personalizar equals(), hashCode(), e toString(), já que essas operações são geralmente baseadas no estado dos campos da instância.
 
-- Limitações na herança: Os Records não suportam herança de classe, o que significa que não é possível estender um Record em outra classe. Isso pode ser um problema se você precisar adicionar funcionalidade a uma classe Record existente.
+- Limitações na herança: Os Records não suportam herança de classe, o que significa que não é possível estender um Record em outra classe. Isso pode ser um problema se você precisar adicionar funcionalidade a uma classe Record existente. No entanto, o record pode implementar interfaces e fornecer implementações para métodos abstratos definidos na interface. Isso permite que você aproveite os benefícios dos records (como a imutabilidade e a concisão) enquanto adere aos contratos definidos por interfaces. A implementação de métodos de interface em records segue as mesmas regras e práticas que em classes comuns, com algumas considerações para a imutabilidade e os métodos automáticos fornecidos pelos records.
 
 - Maior complexidade em casos complexos: Em casos complexos, os Records podem se tornar mais difíceis de entender e manter do que as classes Java normais, devido a uma sintaxe mais compacta e a recursos específicos que podem ser difíceis de entender.
 
