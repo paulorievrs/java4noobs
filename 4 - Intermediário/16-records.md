@@ -60,7 +60,7 @@ public class User {
 
 ```
 
-Observe que a classe possui Gets e Sets para acessá-la, construtor e métodos implementados como o To String. No entanto, dependendo da utilização essas informações podem ser redundantes e gerar replicação de código desnecessária. Assim, surgiram os records.
+Observe que a classe possui Getters e Setters para acessá-la, construtor e métodos implementados, como o `toString`. No entanto, dependendo da utilização essas informações podem ser redundantes e gerar replicação de código desnecessária. Assim, surgiram os records.
 
 ## Mesma classe utilizando Records.
 
