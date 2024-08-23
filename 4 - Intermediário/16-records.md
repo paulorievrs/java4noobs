@@ -90,7 +90,7 @@ O recurso de Records no Java nos dá algumas vantagens, como, por exemplo:
 
 - Sintaxe mais concisa: Records permitem definir classes de dados imutáveis de forma mais concisa, eliminando a necessidade de escrever o código repetitivo que normalmente é necessário para definir uma classe Java.
 
-- Redução de código boilerplate: Como os Records fornecem métodos padrão, como `equals()`, `hashCode()` e `toString()`, eles reduzem a quantidade de código boilerplate necessário para definir uma classe Java.
+- Redução de código boilerplate: Como os Records fornecem métodos padrão, como `equals()`, `hashCode()` e `toString()`, eles reduzem a quantidade de código boilerplate em classes tradicionais.
 
 - Imutabilidade: Como os Records são imutáveis por padrão, eles fornecem uma maneira mais segura e fácil de trabalhar com dados imutáveis.
 
