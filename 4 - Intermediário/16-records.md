@@ -108,4 +108,4 @@ Por outro lado, eles também possuem algumas desvantagens, como, por exemplo:
 
 - Maior complexidade em casos complexos: Em casos complexos, os Records podem se tornar mais difíceis de entender e manter do que as classes Java normais, devido a uma sintaxe mais compacta e a recursos específicos que podem ser difíceis de entender.
 
-- Restrições de visibilidade: a visibilidade dos campos e métodos em um record é limitada. Todos os campos são automaticamente finais e privados, e os métodos são todos públicos.
+- Restrições de visibilidade: a visibilidade dos campos e métodos em um record é limitada. Todos os campos são automaticamente finais e privados, e os métodos gerados são todos públicos.
