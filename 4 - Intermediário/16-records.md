@@ -3,10 +3,9 @@
 Os Records são uma nova forma de declarar classes no Java. Eles são imutáveis por padrão, o que significa que não podemos alterar seus valores após a criação do objeto. Além disso, eles são bastante úteis para representar dados, como, por exemplo, uma entidade de banco de dados. Esse tipo de classe foi introduzida oficialmente ao Java na versão 17, portanto, podemos utilizar em nossos programas.
 
 
-## Exemplo de utilização
+## Exemplo de uma classe tradicional
 
 ```java
-// Essa classe não é um Record.
 import java.util.Objects;
 
 public class User {
