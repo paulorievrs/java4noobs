@@ -61,10 +61,9 @@ public class User {
 
 Observe que a classe possui Getters e Setters para acessá-la, construtor e métodos implementados, como o `toString`. No entanto, dependendo da utilização essas informações podem ser redundantes e gerar replicação de código desnecessária. Assim, surgiram os records.
 
-## Mesma classe utilizando Records.
+## Exemplo utilizando Records.
 
 Observe como o código foi simplificado em apenas uma linha. Esse é o poder dessa classe, agora os métodos de acesso a classe não precisam ser criados manualmente, logo, serão instanciados de acordo com a necessidade do código.
-
 ```java
 public record User(String name, String password){}
 ```
