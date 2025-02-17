@@ -22,6 +22,53 @@ Nenhuma linha que está a frente das duas barras ( <b>//</b> ) é interpretada p
 
 **Obs**.: O comentário de várias linhas é mais utilizado para documentar o que o método faz.
 
+# Documentação com Javadoc
+
+Javadoc é uma ferramenta que gera documentação HTML a partir de comentários no código-fonte Java. Esses comentários devem estar em blocos iniciados por `/**` e terminados por `*/`. A documentação gerada é muito útil para entender APIs e bibliotecas Java.
+
+
+## Exemplo de Comentário Javadoc
+
+```java
+/**
+ * A classe Calculadora realiza operações matemáticas básicas.
+ */
+public class Calculadora {
+
+    /**
+     * Soma dois números inteiros.
+     *
+     * @param a o primeiro número
+     * @param b o segundo número
+     * @return a soma de a e b
+     */
+    public int somar(int a, int b) {
+        return a + b;
+    }
+}
+```
+
+## Tags Comuns do Javadoc
+
+- `@param` - Descreve um parâmetro do método.
+- `@return` - Descreve o valor de retorno do método.
+- `@throws` - Descreve as exceções que o método pode lançar.
+- `@see` - Adiciona uma referência a outra classe ou método.
+- `@deprecated` - Marca o método ou classe como obsoleto.
+
+## Gerando a Documentação
+
+Para gerar a documentação, use o comando `javadoc` no terminal:
+
+```sh
+javadoc -d docs src/com/exemplo/Calculadora.java
+```
+
+Este comando cria a documentação HTML no diretório especificado (`docs`).
+
+Para mais detalhes, consulte a [documentação oficial do Javadoc](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html).
+
+
 <h2> Indentação </h2>
 Para manter uma boa leitura do código é necessário uma indentação, que ao longo de suas práticas vai se tornando mais fácil de se utilizar. Para você perceber a diferença entre um código indentado ou não, vai abaixo os dois exemplos.
 
