@@ -45,6 +45,7 @@
 15. 🔠 [Arrays Multidimensionais/Matrizes](/3%20-%20B%C3%A1sico/15-Matrizes.md)
 16. 🏃‍♂ [Diferença entre static e non-static](/3%20-%20B%C3%A1sico/16-Diferencas-Static-nonStatic.md)
 17. ✋ [Exceções](/3%20-%20B%C3%A1sico/17-Excecoes.md)
+17. ✋ [ForEach](/3%20-%20B%C3%A1sico/18-ForEach.md)
 
 ### Módulo Intermediário
 
@@ -63,6 +64,8 @@
 13. 🔠 [Sets](/4%20-%20Intermedi%C3%A1rio/13-Sets.md)
 14. 🔠 [Map](/4%20-%20Intermedi%C3%A1rio/14-Map.md)
 15. 🔠 [Genéricos](/4%20-%20Intermedi%C3%A1rio/15-Genericos.md)
+16. 🔠 [Final](/4%20-%20Intermedi%C3%A1rio/16-Final.md)
+17. 🔠 [Lambda](/4%20-%20Intermedi%C3%A1rio/17-Lambda.md)
 
 ### Extras
 
