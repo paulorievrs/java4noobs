@@ -14,5 +14,6 @@ Já existe vários lugares onde oferecem tutoriais para a criação de projetos,
 
 ## Projetos por Java4Noobs
 1. **Básicos**
+    * [Máquina de Turing](/Extras/projetos/MaquinaTuring.md)
 2. **Intermediário**
 3. **Avançado**
