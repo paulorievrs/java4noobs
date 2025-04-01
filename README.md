@@ -71,7 +71,8 @@
 
 1. ✔️ [Boas Práticas](/Extras/BoasPraticas.md)
 2. 📖 [Livros](/Extras/Livros.md)
-3. 🛄 [Requisições](/Extras/Requisicoes.md)
+3. [Projetos](/Extras/Projetos.md)
+4. 🛄 [Requisições](/Extras/Requisicoes.md)
 
 ## Como Contribuir
 
