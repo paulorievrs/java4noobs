@@ -106,6 +106,26 @@ Alguns métodos dos mais importantes são:
 
 <li>Arrays.sort(array) - Esse método recebe uma array e ordena ela.</li>
 
+```java
+import java.util.Arrays;
+
+public class ArrayOrdenado {
+    public static void main(String[] args) {
+
+        int[] numeros = new int[4];
+        numeros[0] = 40;
+        numeros[1] = 20;
+        numeros[2] = 30;
+        numeros[3] = 10; // {40, 20, 30, 10} desordenado
+
+        Arrays.sort(numeros); // {10, 20, 30, 40} ordenado
+
+        System.out.println(Arrays.toString(numeros));
+    }
+}
+
+```
+
 <li>Arrays.copyOf(array, novoTamanho) - Esse método recebe uma array e um novo tamanho e como retorno tem a mesma array com o tamanho novo passado.</li>
 <br>
 

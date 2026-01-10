@@ -5,7 +5,7 @@ Um método/função realiza uma parte do código em uma área diferente da **FUN
 
 Assim como existe a tipagem de variáveis, é da mesma maneira que ocorre com uma função. Cada função deve ter um tipo, se você não quer que retorne nada, o tipo será **void**. Ficará melhor de entender ao longo dos códigos. Também existem os parâmetros, que você pode passar para uma função utilizar algumas variáveis de sua preferência.
 
-A sintaxe de uma função é muito parecida com a main, você vai iniciar com **public**, depois **static** e agora vem o tipo de função, que são os mesmo tipos de variáveis (int, float, double, etc...), depois disso vem obrigatóriamente os parênteses, que dentro deles você pode receber variáveis durante a chamada da função, e dentro da função, se ela nao for do tipo **void**, deve conter algum retorno do mesmo tipo dela.
+A sintaxe de uma função é muito parecida com a main, você vai iniciar com **public**, depois **static** e agora vem o tipo de função, que são os mesmo tipos de variáveis (int, float, double, etc...), depois disso vem obrigatóriamente os parênteses, que dentro deles você pode receber variáveis (chamadas de parametros da função/método) durante a chamada da função, e dentro da função, se ela nao for do tipo **void**, deve conter algum retorno do mesmo tipo dela.
 
 Exemplo básico:
 
